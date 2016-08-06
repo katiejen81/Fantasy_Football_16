@@ -12,3 +12,13 @@ print '\n'.join(sys.path)
 
 #Start by importing the application
 import nflgame
+import nflgame.sched
+import csv
+
+#let's see now what this thing can do
+
+#get the schedule for the season
+schedule_games = nflgame.sched.games
+
+#write these to csv so that I can look at them
+with open
