@@ -6,16 +6,19 @@
 #The below was only needed because on the linux machine things were installed 
 #in the non default directory. Windows doesn't have this problem
 
-#import sys
-#sys.path.insert(0, '/home/katie/anaconda2/lib/python2.7/site-packages/')
-#print '\n'.join(sys.path)
+import sys
+sys.path.insert(0, '/home/katie/anaconda2/lib/python2.7/site-packages/')
+print '\n'.join(sys.path)
 
 #find the working directory and change if needed
 import os
 os.getcwd()
 
 #I want to change the working directory - this is for Windows Machine
-os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
+#os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
+
+#This Path is for the Linux machine
+os.chdir('/home/katie/Fantasy Football Programs and Files/')
 
 #Start by importing the application
 import nflgame
@@ -41,11 +44,16 @@ with open('Schedule since 2013.csv', 'wb') as csvfile:
 #There is a JSON file in the package directory. Let's see if we can update it
 #Run the Update_Players file
 
-runfile('C:/Users/Katie/Anaconda2/Lib/site-packages/nflgame/update_players.py', wdir='C:\Users\Katie\Documents\Fantasy_Football_16')
+#runfile('C:/Users/Katie/Anaconda2/Lib/site-packages/nflgame/update_players.py', wdir='C:\Users\Katie\Documents\Fantasy_Football_16')
+runfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/update_players.py')
+
+
 
 #This creates the players.json file, let's bring this into an object
 #First we need to bring this into the working directory
-#getting errors when I try to do this programmatically. Will just copy and paste for now
+
+import shutil
+shutil.copyfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/players.json', '/home/katie/Fantasy Football Programs and Files/players.json')
 
 import json
 with open('players.json') as json_data:
@@ -53,13 +61,25 @@ with open('players.json') as json_data:
     print players
 
 #Creating the csv file
+#this was a really interesting point - If the key value in the dictionary is missing, python throws an error
+#We need to tell python what to do if a key is missing. The dictionary.get() function does that
+#This way, if a value is missing, I can tell python to leave it blank, and then there are no errors and I define
+#missing values
+
 import csv
-with open('All Players.csv', 'wb') as csvfile:
-    playerwriter = csv.writer(csvfile, delimiter=',')
+with open('All Players.csv', 'wb') as csvfile2:
+    playerwriter = csv.writer(csvfile2, delimiter=',')
     playerwriter.writerow(['NFLID', 'Short_Name', 'Full_Name', 'Date_of_Birth', 'Height', 'Weight', 'College', 'Years_Pro', 'Jersey_Number'])
-    for p in players:
-        players.writerow([p, players['gsis_id']])
-
-            
-
-            
+    for key in players:
+        player = players[key]
+        playerwriter.writerow([
+            player.get('gsis_id', ''),
+            player.get('gsis_name', ''),
+            player.get('full_name', ''),
+            player.get('birthdate', ''),
+            player.get('height', ''),
+            player.get('weight', ''),
+            player.get('college', ''),
+            player.get('years_pro', ''),
+            player.get('number', '')
+            ])
