@@ -15,10 +15,10 @@ import os
 os.getcwd()
 
 #I want to change the working directory - this is for Windows Machine
-#os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
+os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
 
 #This Path is for the Linux machine
-os.chdir('/home/katie/Fantasy Football Programs and Files/')
+#os.chdir('/home/katie/Fantasy Football Programs and Files/')
 
 #Start by importing the application
 import nflgame
@@ -33,11 +33,11 @@ print schedule_games
 #write these to csv so that I can look at them
 with open('Schedule since 2013.csv', 'wb') as csvfile:
     schedulewriter = csv.writer(csvfile, delimiter=',')
-    schedulewriter.writerow(['Home', 'Away', 'Day of Week', 'Month', 'Day', 'Year', 'Week'])
+    schedulewriter.writerow(['Game_Key', 'Home', 'Away', 'Day_of_Week', 'Month', 'Day', 'Year', 'Week'])
     for key in schedule_games:
         game = schedule_games[key]
         if game['year'] > 2012 and game['season_type'] == 'REG':
-            schedulewriter.writerow([game['home'], game['away'], game['wday'], game['month'], game['day'], game['year'], game['week']])
+            schedulewriter.writerow([game['gamekey'], game['home'], game['away'], game['wday'], game['month'], game['day'], game['year'], game['week']])
             
 #Now let's get some player information
 #The cookbook Code doesn't appear to be working. Let's MacGyver this
@@ -83,3 +83,26 @@ with open('All Players.csv', 'wb') as csvfile2:
             player.get('years_pro', ''),
             player.get('number', '')
             ])
+            
+#Let's now see what kinds of game statistics are available to us
+dictionary2 = nflgame.statmap.idmap()
+print dictionary2
+
+with open('data dictionary.csv', 'wb') as csvwrite:
+    dictwriter = csv.writer(csvwrite, delimiter=',')
+    dictwriter.writerow(['Category', 'Description', 'fields'])
+    for key in dictionary2:
+        item = dictionary2[key]
+        dictwriter.writerow([item['cat'], item['desc'], item['fields']])
+
+#Now that we have a data dictionary, we can start to gather statistics
+    
+nflgame.combine(nflgame.games(2013)).csv('season2013.csv')
+
+nflgame.combine()
+
+games = nflgame.games(2013, week=1, home='DEN', away='BAL')
+players = nflgame.combine_game_stats(games)
+for p in players.rushing():
+    print p, p.rushing_att, p.rushing_yards, p.rushing_tds
+
