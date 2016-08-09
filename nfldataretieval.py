@@ -96,13 +96,35 @@ with open('data dictionary.csv', 'wb') as csvwrite:
         dictwriter.writerow([item['cat'], item['desc'], item['fields']])
 
 #Now that we have a data dictionary, we can start to gather statistics
-    
-nflgame.combine(nflgame.games(2013)).csv('season2013.csv')
+#To make a relational database, let's start with full lists of players
+#This joins back to the Schedule Since 2013 file
 
-nflgame.combine()
+schedule_games = nflgame.sched.games
+print schedule_games
 
-games = nflgame.games(2013, week=1, home='DEN', away='BAL')
-players = nflgame.combine_game_stats(games)
-for p in players.rushing():
-    print p, p.rushing_att, p.rushing_yards, p.rushing_tds
 
+with open('Player_List.csv', 'wb') as csvwrite:
+    gmewriter = csv.writer(csvwrite, delimiter = ',')
+    gmewriter.writerow(['Gamekey', 'Home_team', 'Away_Team', 'Player_Short_Name', 'Player_Team', 'Home_Team'])
+    for key in schedule_games:
+        game = schedule_games[key]
+        if game['year'] > 2012 and game['season_type'] == 'REG':
+            id1 = game['gamekey']
+            game1 = game['year']
+            week1 = game['week']
+            home1 = game['home']
+            away1 = game['away']
+            games = nflgame.games(game1, week1, home1, away1)
+            players = nflgame.combine(games)            
+            for p in players:
+                gmewriter.writerow([
+                    id1,
+                    home1,
+                    away1,
+                    p.name,
+                    p.team,
+                    p.home
+                    ])
+
+#Next we are going to start with some specific stats - passing, rushing, defense, kicking, puntreturn, etc.
+#Then the plan is to join this back to the roster files in order to get data
