@@ -128,3 +128,43 @@ with open('Player_List.csv', 'wb') as csvwrite:
 
 #Next we are going to start with some specific stats - passing, rushing, defense, kicking, puntreturn, etc.
 #Then the plan is to join this back to the roster files in order to get data
+
+#Let's Start with Passing
+
+with open('passing_data.csv', 'wb') as csvwriter:
+    passwriter = csv.writer(csvwriter, delimiter=',')
+    passwriter.writerow(['Gamekey', 'Home_team', 'Away_Team', 'Day_of_week', 'Month', 'Day', 'Year', 'Week', 'Player_Short_Name', 'Player_Team', 'Home_Team',  'passing_att', 'passing_incmp', 'passing_cmp', 'passing_tds', 'passing_int', 'passing_sk'])
+    for key in schedule_games:
+        game = schedule_games[key]
+        if game['year'] > 2012 and game['season_type'] == 'REG':
+            id1 = game['gamekey']
+            game1 = game['year']
+            week1 = game['week']
+            home1 = game['home']
+            away1 = game['away']
+            dow1 = game['wday']
+            mnth1 = game['month']
+            day1 = game['day']
+            year1 = game['year']
+            games = nflgame.games(game1, week1, home1, away1)
+            players = nflgame.combine(games).passing()
+            for p in players:
+                passwriter.writerow([id1,
+                    home1,
+                    away1,
+                    dow1,
+                    mnth1,
+                    day1,
+                    year1,
+                    week1,
+                    p.name,
+                    p.team,
+                    p.home,
+                    p.passing_att,
+                    p.passing_incmp,
+                    p.passing_cmp,
+                    p.passing_tds,
+                    p.passing_int,
+                    p.passing_sk
+                    ])
+            
