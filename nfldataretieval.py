@@ -133,7 +133,11 @@ with open('Player_List.csv', 'wb') as csvwrite:
 
 with open('passing_data.csv', 'wb') as csvwriter:
     passwriter = csv.writer(csvwriter, delimiter=',')
-    passwriter.writerow(['Gamekey', 'Home_team', 'Away_Team', 'Day_of_week', 'Month', 'Day', 'Year', 'Week', 'Player_Short_Name', 'Player_Team', 'Home_Team',  'passing_att', 'passing_incmp', 'passing_cmp', 'passing_tds', 'passing_int', 'passing_yds', 'passing_twoptm', 'passing_yds_FF_pts', 'passing_tds_FF_pts', 'passing_twopt_FF_pts', 'total_FF_pts'])
+    passwriter.writerow(['Gamekey', 'Home_team', 'Away_Team', 'Day_of_week', \
+    'Month', 'Day', 'Year', 'Week', 'Player_Short_Name', 'Player_Team', \
+    'Home_Team',  'passing_att', 'passing_incmp', 'passing_cmp', 'passing_tds',\
+    'passing_int', 'passing_yds', 'passing_twoptm', 'passing_yds_FF_pts', \
+    'passing_tds_FF_pts', 'passing_twopt_FF_pts', 'intercept_FF_pts', 'total_FF_pts'])
     for key in schedule_games:
         game = schedule_games[key]
         if game['year'] > 2012 and game['season_type'] == 'REG':
@@ -156,8 +160,10 @@ with open('passing_data.csv', 'wb') as csvwriter:
                 TDS_FF = round(p.passing_tds * 4)
                 #Two Point Conversion Values
                 TWO_FF = round(p.passing_twoptm * 2)
+                #Interception Values
+                INT_FF = round(float(p.passing_ints * -1))
                 #Total QB Points / game
-                Total_FF = Pass_FF + TDS_FF + TWO_FF
+                Total_FF = Pass_FF + TDS_FF + TWO_FF + INT_FF
                 passwriter.writerow([id1,
                     home1,
                     away1,
@@ -173,14 +179,66 @@ with open('passing_data.csv', 'wb') as csvwriter:
                     p.passing_incmp,
                     p.passing_cmp,
                     p.passing_tds,
-                    p.passing_int,
+                    p.passing_ints,
                     p.passing_yds,
                     p.passing_twoptm,
                     Pass_FF,
                     TDS_FF,
                     TWO_FF,
+                    INT_FF,
                     Total_FF
                     ])
                     
-
+#Next let's do rushing stats. Shouldn't be as involved
+                    
+with open('rushing_data.csv', 'wb') as csvwriter:
+    rushwriter = csv.writer(csvwriter, delimiter=',')
+    rushwriter.writerow(['Gamekey', 'Home_team', 'Away_Team', 'Day_of_week', \
+    'Month', 'Day', 'Year', 'Week', 'Player_Short_Name', 'Player_Team', \
+    'Home_Team',  'rushing_yds', 'rushing_tds', 'rushing_twoptm', \
+	'rushing_yds_FF_pts', 'rushing_tds_FF_pts', 'rushing_twoptm_FF_pts', \
+	'total_FF_pts'])
+    for key in schedule_games:
+        game = schedule_games[key]
+        if game['year'] > 2012 and game['season_type'] == 'REG':
+            id1 = game['gamekey']
+            game1 = game['year']
+            week1 = game['week']
+            home1 = game['home']
+            away1 = game['away']
+            dow1 = game['wday']
+            mnth1 = game['month']
+            day1 = game['day']
+            year1 = game['year']
+            games = nflgame.games(game1, week1, home1, away1)
+            players = nflgame.combine(games).rushing()
+            for p in players:
+                #Calculating the Fantasy points using our current rules
+                #Rushing Values
+                Rush_FF = round(p.rushing_yds / 10)
+                #TD Values
+                TDS_FF = round(p.rushing_tds * 6)
+                #Two Point Conversion Values
+                TWO_FF = round(p.rushing_twoptm * 2)
+                #Total Rush Points / game
+                Total_FF = Rush_FF + TDS_FF + TWO_FF
+                rushwriter.writerow([id1,
+                    home1,
+                    away1,
+                    dow1,
+                    mnth1,
+                    day1,
+                    year1,
+                    week1,
+                    p.name,
+                    p.team,
+                    p.home,
+                    p.rushing_yds,
+                    p.rushing_tds,
+                    p.rushing_twoptm,
+                    Rush_FF,
+                    TDS_FF,
+                    TWO_FF,
+                    Total_FF
+                    ])
             
