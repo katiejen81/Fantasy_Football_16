@@ -241,4 +241,60 @@ with open('rushing_data.csv', 'wb') as csvwriter:
                     TWO_FF,
                     Total_FF
                     ])
-            
+
+#Receiving Points
+
+with open('receiving_data.csv', 'wb') as csvwriter:
+    recwriter = csv.writer(csvwriter, delimiter=',')
+    recwriter.writerow(['Gamekey', 'Home_team', 'Away_Team', 'Day_of_week', \
+    'Month', 'Day', 'Year', 'Week', 'Player_Short_Name', 'Player_Team', \
+    'Home_Team', 'receiving_rec',  'receiving_yds', 'receiving_tds', 'receiving_twoptm', \
+	'receiving_rec_FF_pts', 'receiving_yds_FF_pts', 'receiving_tds_FF_pts', \
+ 'receiving_twoptm_FF_pts', 'total_FF_pts'])
+    for key in schedule_games:
+        game = schedule_games[key]
+        if game['year'] > 2012 and game['season_type'] == 'REG':
+            id1 = game['gamekey']
+            game1 = game['year']
+            week1 = game['week']
+            home1 = game['home']
+            away1 = game['away']
+            dow1 = game['wday']
+            mnth1 = game['month']
+            day1 = game['day']
+            year1 = game['year']
+            games = nflgame.games(game1, week1, home1, away1)
+            players = nflgame.combine(games).receiving()
+            for p in players:
+                #Calculating the Fantasy points using our current rules
+                #receiving Values
+                Rec_FF = round(p.receiving_yds / 10)
+                #Reception Values
+                RECP_FF = round(p.receiving_rec * 1)
+			#Reception touchdown Values
+                TDS_FF = round(p.receiving_tds * 6)
+                #Two Point Conversion Values
+                TWO_FF = round(p.receiving_twoptm * 2)
+                #Total Receiving Points / game
+                Total_FF = Rec_FF + RECP_FF + TDS_FF + TWO_FF
+                recwriter.writerow([id1,
+                    home1,
+                    away1,
+                    dow1,
+                    mnth1,
+                    day1,
+                    year1,
+                    week1,
+                    p.name,
+                    p.team,
+                    p.home,
+				p.receiving_rec,
+                    p.receiving_yds,
+                    p.receiving_tds,
+                    p.receiving_twoptm,
+                    Rec_FF,
+				RECP_FF,
+                    TDS_FF,
+                    TWO_FF,
+                    Total_FF
+                    ])      
