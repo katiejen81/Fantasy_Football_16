@@ -84,7 +84,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028892,G.Robinson,Gerell Robinson,10/13/1989,76,248,Arizona State,2,89
 00-0028893,A.Corp,Aaron Corp,3/6/1989,76,195,Richmond,,
 00-0028895,D.Howell,Delano Howell,11/17/1989,71,196,Stanford,4,26
-00-0031890,,Josh Shirley,1/4/1992,73,235,Nevada-Las Vegas,0,91
+00-0031890,,Josh Shirley,1/4/1992,73,235,Nevada-Las Vegas,2,91
 00-0028897,S.Powell,Shawn Powell,11/29/1988,76,243,Florida State,2,9
 00-0026611,T.Lorenzen,Tyler Lorenzen,12/24/1985,77,234,Connecticut,3,
 00-0024188,R.Niswanger,Rudy Niswanger,11/9/1982,77,301,LSU,6,
@@ -134,7 +134,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0025630,C.Harris,Clark Harris,7/10/1984,77,250,Rutgers,8,46
 00-0025637,A.Bradshaw,Ahmad Bradshaw,3/19/1986,70,217,Marshall,9,44
 00-0025636,D.Stanley,Derek Stanley,8/27/1985,71,182,Wis.-Whitewater,3,
-00-0029928,E.Highsmith,Erik Highsmith,11/20/1990,73,190,North Carolina,,
+00-0023368,C.Wake,Cameron Wake,1/30/1982,75,263,Penn State,8,91
 00-0033029,,Kelsey Young,3/4/1993,70,198,Boise State,0,32
 00-0033028,,Michael Wakefield,1/12/1994,75,268,Florida International,0,45
 00-0033025,,Jalen Richard,10/15/1993,68,207,Southern Mississippi,0,46
@@ -261,7 +261,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029138,A.Ta'amu,Alameda Ta'amu,8/23/1990,75,348,Washington,4,66
 00-0023195,T.Johnson,Thomas Johnson,6/24/1981,74,304,Middle Tennessee State,5,
 00-0029134,B.Brinkley,Beau Brinkley,1/25/1990,76,248,Missouri,5,48
-00-0029135,,Joe Long,7/27/1989,77,304,Wayne State (Mich.),1,79
+00-0023199,D.Reid,Darrell Reid,6/20/1982,74,270,Minnesota,6,
 00-0029136,B.Hernandez,Brian Hernandez,4/13/1984,71,190,Utah,1,
 00-0029137,A.Jeffery,Alshon Jeffery,2/14/1990,75,218,South Carolina,5,17
 00-0029130,D.Moses,Dezman Moses,1/4/1989,74,249,Tulane,5,54
@@ -319,6 +319,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031429,,Jerry Rice,7/27/1991,71,185,Nevada-Las Vegas,2,0
 00-0031428,,Allen Robinson,8/24/1993,75,215,Penn State,2,15
 00-0032233,,Cedric Ogbuehi,4/25/1992,77,310,Texas A&M,2,70
+00-0032237,,Jimmay Mundine,11/12/1991,74,240,Kansas,0,81
 00-0032234,,Laken Tomlinson,2/9/1992,75,323,Duke,2,72
 00-0032239,,Byron Jones,9/26/1992,72,205,Connecticut,2,31
 00-0020664,B.Moore,Brandon Moore,1/16/1979,73,240,Oklahoma,8,
@@ -381,7 +382,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024846,G.Russell,Gary Russell,9/6/1986,71,215,Minnesota,3,
 00-0029835,D.Croom,Dominique Croom,4/26/1991,74,190,Central Arkansas,1,0
 00-0029834,J.Cook,Jamaine Cook,//,69,215,Youngstown State,1,0
-00-0027479,M.Brown,Marcus Brown,1/27/1987,73,190,Arkansas State,3,
+00-0029837,M.Edwards,Mike Edwards,12/14/1989,71,200,Texas-El Paso,,
 00-0027478,D.McCleskey,Donye McCleskey,9/18/1988,72,225,Indiana State,1,
 00-0029831,,Aaron Adams,5/16/1989,77,303,Eastern Kentucky,2,0
 00-0029830,K.Pough,Keith Pough,2/5/1990,75,225,Howard,1,0
@@ -486,6 +487,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029336,B.Golden,Brittan Golden,7/20/1988,71,186,West Texas A&M,3,10
 00-0029489,E.Elder,Eddie Elder,2/14/1989,70,185,Arizona State,1,
 00-0029335,T.Crump,Terriun Crump,7/23/1989,74,223,Western Illinois,1,
+00-0029688,D.Poe,Dontari Poe,8/18/1990,75,346,Memphis,5,92
 00-0029338,J.Jones,Jeremy Jones,7/18/1989,70,197,Wayne State (Mich.),1,
 00-0029339,C.Summers,Chris Summers,7/10/1989,77,215,Liberty,1,87
 00-0029480,N.Hixson,Nick Hixson,1/15/1989,73,185,Hillsdale,1,
@@ -670,7 +672,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032736,,Arturo Uzdavinis,11/2/1992,79,305,Tulane,0,67
 00-0023788,B.Ortega,Buck Ortega,11/22/1981,76,250,Miami (Fla.),3,
 00-0032734,,Brennan Scarlett,7/31/1993,76,264,Stanford,0,57
-00-0032735,,Duke Thomas,//,71,178,Texas,0,40
+00-0032735,,Duke Thomas,5/21/1994,71,178,Texas,0,40
 00-0032733,,Shakeel Rashad,3/17/1994,74,235,North Carolina,0,42
 00-0032730,,Eric Lee,8/6/1994,75,260,South Florida,0,61
 00-0032731,,Richard Leonard,9/2/1991,69,170,Florida International,0,0
@@ -770,7 +772,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027209,A.Coleman,Antonio Coleman,9/1/1986,73,254,Auburn,3,
 00-0027758,R.Cooper,Riley Cooper,9/9/1987,76,230,Florida,6,14
 00-0027759,L.Asante,Larry Asante,3/7/1988,72,210,Nebraska,4,42
-00-0027752,A.Lane,Austen Lane,11/9/1987,78,265,Murray State,4,73
+00-0027200,G.Lindholm,Garrett Lindholm,8/10/1988,69,190,Tarleton State,1,
 00-0027753,A.Quarless,Andrew Quarless,10/6/1988,76,252,Penn State,6,81
 00-0027202,M.Palmer,Michael Palmer,1/18/1988,77,252,Clemson,6,82
 00-0027751,O.Hudson,Otis Hudson,7/19/1986,77,330,Eastern Illinois,2,67
@@ -797,6 +799,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027983,R.Moore,Rahim Moore,2/11/1990,72,208,UCLA,6,20
 00-0027982,T.Young,Titus Young,8/21/1989,71,174,Boise State,2,
 00-0032277,,Avius Capers,5/30/1992,69,195,Johnson C. Smith,1,16
+00-0032276,,Chris Highland,1/4/1992,74,230,Illinois State,0,46
 00-0032273,,Jude Adjei-Barimah,7/21/1992,71,200,Bowling Green State,2,38
 00-0032272,,Isaiah Battle,2/10/1993,79,290,Clemson,0,77
 00-0032271,,D'Joun Smith,9/23/1992,71,193,Florida Atlantic,2,30
@@ -846,7 +849,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0021173,T.Williams,Tank Williams,6/30/1980,74,223,Stanford,8,
 00-0021174,T.Carter,Tim Carter,9/21/1979,72,185,Auburn,8,
 00-0021175,A.Davis,Andre Davis,6/12/1979,73,200,Virginia Tech,9,
-00-0021178,C.Pitts,Chester Pitts,6/26/1979,76,308,San Diego State,9,
+00-0030653,,Ray Agnew,2/26/1991,70,245,Southern Illinois,2,48
 00-0021179,C.Portis,Clinton Portis,9/1/1981,71,219,Miami (Fla.),9,
 00-0030651,E.Thomas,Eric Thomas,11/11/1991,73,225,Troy,0,81
 00-0030650,D.McDonald,Dewey McDonald,6/10/1990,72,220,California (PA),2,35
@@ -906,7 +909,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0026348,E.Baldwin,Ervin Baldwin,8/25/1986,74,260,Michigan State,3,
 00-0026349,M.Flynn,Matt Flynn,6/20/1985,74,225,LSU,8,3
 00-0032710,,Jeremiah McKinnon,6/29/1993,71,192,Florida International,0,37
-00-0032711,,Jason Neill,//,74,266,Texas-San Antonio,0,91
+00-0032711,,Jason Neill,10/28/1992,74,266,Texas-San Antonio,0,91
 00-0027699,M.Johnson,Mike Johnson,4/2/1987,78,304,Alabama,4,79
 00-0027698,R.Curran,Rennie Curran,11/10/1988,71,230,Georgia,3,
 00-0032714,,Alex Balducci,3/1/1994,76,310,Oregon,0,56
@@ -1084,8 +1087,8 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028767,S.Moore,Sterling Moore,2/3/1990,70,202,Southern Methodist,6,41
 00-0028817,C.Clay,Curtis Clay,10/13/1988,72,193,Texas Christian,1,
 00-0030756,R.Neal,Rajion Neal,3/28/1992,71,220,Tennessee,1,34
-00-0030757,M.Pennel,Mike Pennel,5/9/1991,76,332,Colorado State-Pueblo,3,64
-00-0030754,,Adrian Hubbard,2/27/1992,78,257,Alabama,1,49
+00-0030757,M.Pennel,Mike Pennel,5/9/1991,76,332,Colorado State,3,64
+00-0024100,B.Iwuh,Brian Iwuh,3/8/1984,72,239,Colorado,6,
 00-0030755,,Jordan McCray,5/31/1992,75,320,Central Florida,1,62
 00-0030752,,Jay Elliott,11/11/1991,75,255,Toledo,3,91
 00-0030753,,Carlos Gray,6/30/1992,74,313,North Carolina State,0,74
@@ -1141,7 +1144,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0030127,M.Cooper,Marcus Cooper,2/1/1990,74,192,Rutgers,4,31
 00-0023215,H.Farwell,Heath Farwell,12/31/1981,72,235,San Diego State,11,55
 00-0032909,,Dillon Gordon,9/2/1993,76,322,LSU,0,69
-00-0032908,,Mike McQueen,8/31/1993,78,297,Ohio U.,0,66
+00-0032908,,Mike McQueen,8/31/1993,78,287,Ohio U.,0,0
 00-0030126,,T.J. Johnson,7/17/1990,76,300,South Carolina,3,60
 00-0032459,,Aaron Neary,11/15/1992,76,301,Eastern Washington,0,72
 00-0032458,,Durron Neal,11/3/1992,71,201,Oklahoma,0,5
@@ -1162,6 +1165,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031693,,Chuka Ndulue,8/17/1991,75,300,Oklahoma,1,96
 00-0031900,R.Smith,Rod Smith,1/10/1992,75,240,Ohio State,2,45
 00-0031902,,Jonathan Anderson,10/27/1991,73,235,Texas Christian,2,58
+00-0029658,C.White,Corey White,5/9/1990,73,210,Samford,5,30
 00-0026368,C.Chamberlain,Chris Chamberlain,9/30/1985,73,238,Tulsa,6,
 00-0026369,C.Williams,Cary Williams,12/23/1984,73,190,Washburn,8,26
 00-0026360,J.Barrett,Josh Barrett,11/22/1984,74,225,Arizona State,5,
@@ -1192,7 +1196,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032929,,James Cowser,9/13/1990,75,247,Southern Utah,0,47
 00-0032928,,Kyrie Wilson,11/5/1992,74,227,Fresno State,0,44
 00-0015194,H.Smith,Hunter Smith,8/9/1977,74,209,Notre Dame,12,
-00-0022999,J.Kuhn,John Kuhn,9/9/1982,72,250,Shippensburg,10,30
+00-0022999,J.Kuhn,John Kuhn,9/9/1982,72,250,Shippensburg,11,30
 00-0022998,A.Harrison,Arnold Harrison,9/20/1982,75,241,Georgia,5,
 00-0029668,A.Luck,Andrew Luck,9/12/1989,76,240,Stanford,5,12
 00-0022997,A.Frazier,Andre Frazier,6/29/1982,77,245,Cincinnati,6,
@@ -1346,7 +1350,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028744,R.Pugh,Ryan Pugh,12/4/1988,73,307,Auburn,1,
 00-0028745,A.Santella,Anthony Santella,3/6/1988,74,190,Illinois,1,
 00-0028746,D.Adams,Darvin Adams,1/5/1990,74,195,Auburn,2,
-00-0028747,M.Tatum,Malcolm Tatum,3/25/1989,74,250,Louisville,1,
+00-0028295,C.Franklin,Collin Franklin,7/20/1988,77,252,Iowa State,2,
 00-0028292,N.Bellore,Nick Bellore,5/12/1989,73,250,Central Michigan,6,50
 00-0028293,M.Campbell,Michael Campbell,8/12/1989,74,205,Temple,2,18
 00-0028742,T.Keiser,Thomas Keiser,3/28/1989,76,260,Stanford,4,53
@@ -1401,7 +1405,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028126,C.Rucker,Chris Rucker,10/12/1988,73,209,Michigan State,2,
 00-0028127,M.Mohamed,Mike Mohamed,3/11/1988,75,238,California,4,98
 00-0029659,M.Jones,Marcel Jones,9/4/1988,79,320,Nebraska,1,60
-00-0029658,C.White,Corey White,5/9/1990,73,210,Samford,5,30
+00-0030688,,Asa Watson,8/2/1990,75,237,North Carolina State,0,45
 00-0030689,X.Boyd,Xavius Boyd,2/7/1991,74,239,Western Kentucky,0,49
 00-0029651,E.Folk,Erik Folk,1/26/1989,71,185,Washington,1,
 00-0029650,E.Coughman,Edawn Coughman,7/21/1988,76,313,Shaw,1,78
@@ -1427,7 +1431,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027963,J.Carpenter,James Carpenter,3/22/1989,77,321,Alabama,6,77
 00-0027962,C.Jordan,Cameron Jordan,7/10/1989,76,287,California,6,94
 00-0030939,,Erik Lora,3/14/1991,71,202,Eastern Illinois,0,0
-00-0031965,,Abou Toure,2/24/1991,74,230,Tennessee-Martin,1,39
+00-0031965,,Abou Toure,2/24/1991,74,230,Tennessee-Martin,1,0
 00-0031962,,Mario Alford,2/25/1992,69,180,West Virginia,2,15
 00-0031960,,Da'Ron Brown,9/21/1991,72,199,Northern Illinois,1,4
 00-0030937,,Zac Kerin,8/13/1991,77,305,Toledo,2,67
@@ -1469,7 +1473,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027039,C.Brown,Cody Brown,11/9/1986,75,252,Connecticut,2,
 00-0027038,S.Marks,Sen'Derrick Marks,2/23/1987,74,316,Auburn,7,99
 00-0029139,A.Gettis,Adam Gettis,12/9/1988,74,305,Iowa,5,60
-00-0023199,D.Reid,Darrell Reid,6/20/1982,74,270,Minnesota,6,
+00-0029135,,Joe Long,7/27/1989,77,304,Wayne State (Mich.),1,79
 00-0030187,R.Ross,Rashad Ross,2/2/1990,72,180,Arizona State,2,19
 00-0030185,N.Nicholas,Nigel Nicholas,5/3/1990,75,269,Oklahoma State,,
 00-0030184,,Oscar Johnson,3/1/1990,78,345,Louisiana Tech,1,73
@@ -1493,6 +1497,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031360,K.Van Noy,Kyle Van Noy,6/19/1990,75,248,Brigham Young,3,53
 00-0023803,R.Ortiz,Robert Ortiz,5/30/1983,73,188,San Diego State,1,
 00-0023800,J.Petrowski,Jamie Petrowski,7/12/1982,76,262,Indiana State,4,
+00-0031363,,Michael Palardy,7/6/1992,71,191,Tennessee,1,1
 00-0032319,,Ross Travis,1/9/1993,79,235,Penn State,1,88
 00-0032312,,Michael Bennett,12/19/1991,74,200,Georgia,1,80
 00-0028357,A.Walters,Anthony Walters,9/19/1988,73,207,Delaware,4,49
@@ -1633,7 +1638,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028547,J.Teague,Jason Teague,8/1/1988,73,184,Texas Christian,1,
 00-0028545,Z.Pauga,Zac Pauga,2/25/1988,73,246,Colorado State,1,
 00-0028014,W.Rackley,Will Rackley,10/11/1989,75,318,Lehigh,4,67
-00-0028543,J.Maehl,Jeff Maehl,3/16/1989,72,184,Oregon,3,88
+00-0028015,J.Casey,Jurrell Casey,12/5/1989,73,305,USC,6,99
 00-0031364,J.Clowney,Jadeveon Clowney,2/14/1993,77,266,South Carolina,3,90
 00-0028540,B.Hartmann,Brett Hartmann,8/17/1987,74,227,Central Michigan,2,
 00-0028728,S.Skelton,Steve Skelton,8/6/1989,77,250,Fordham,1,
@@ -1661,7 +1666,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029945,P.Hazel,Paul Hazel,5/4/1990,77,227,Western Michigan,2,71
 00-0029760,K.Taufa'asau,Kurt Taufa'asau,9/18/1990,74,300,Wyoming,,
 00-0029897,M.Anthony,Marc Anthony,11/14/1989,72,200,California,1,35
-00-0029896,A.Mellette,Aaron Mellette,12/28/1989,74,217,Elon,2,13
+00-0029672,R.Reiff,Riley Reiff,12/1/1988,78,308,Iowa,5,71
 00-0029895,,Ryan Jensen,5/27/1991,76,310,Colorado State-Pueblo,3,66
 00-0029762,J.Wetzel,John Wetzel,7/18/1991,79,328,Boston College,1,73
 00-0029893,R.Wagner,Ricky Wagner,10/21/1989,78,310,Wisconsin,4,71
@@ -1680,7 +1685,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027945,A.Smith,Aldon Smith,9/25/1989,76,265,Missouri,6,99
 00-0027944,J.Jones,Julio Jones,2/3/1989,75,220,Alabama,6,11
 00-0027943,P.Peterson,Patrick Peterson,7/11/1990,77,203,LSU,6,21
-00-0029943,R.Dill,R.J. Dill,7/26/1990,78,320,Rutgers,1,74
+00-0029767,R.Steeples,Robert Steeples,11/27/1989,73,198,Memphis,1,28
 00-0027941,M.Dareus,Marcell Dareus,11/18/1989,75,331,Alabama,6,99
 00-0027940,V.Miller,Von Miller,3/26/1989,75,250,Texas A&M,6,58
 00-0029766,,Jorgen Hus,9/12/1989,73,232,Regina (Canada),0,0
@@ -1916,7 +1921,6 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029076,A.Pasztor,Austin Pasztor,11/26/1990,79,308,Virginia,4,67
 00-0029079,Q.Saulsberry,Quentin Saulsberry,10/14/1988,75,300,Mississippi State,1,
 00-0019587,T.Smith,Terrelle Smith,3/12/1978,72,246,Arizona State,10,
-00-0030826,R.Reynolds,Rashaad Reynolds,2/2/1991,71,187,Oregon State,2,40
 00-0028551,L.Cox,Landon Cox,6/19/1989,75,220,Northern Illinois,2,
 00-0030112,T.Bohanon,Tommy Bohanon,9/10/1990,73,247,Wake Forest,4,40
 00-0025567,J.Rogers,Justin Rogers,8/31/1983,76,250,Southern Methodist,3,
@@ -1962,14 +1966,14 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029663,L.Lumpkin,Larry Lumpkin,5/16/1991,72,234,Carson-Newman,1,
 00-0033151,,Joshua Garnett,2/21/1994,76,317,Stanford,0,65
 00-0032484,,Vontarrius Dora,9/7/1992,76,256,Louisiana Tech,0,68
-00-0033153,,Clayton Echard,//,77,260,Missouri,0,85
+00-0033153,,Clayton Echard,4/29/1993,77,260,Missouri,0,85
 00-0033152,,Franky Okafor,7/28/1993,75,190,Southeastern Oklahoma State,0,17
-00-0033155,,Lee Hightower,//,74,200,Houston,0,38
+00-0033155,,Lee Hightower,7/28/1993,74,200,Houston,0,38
 00-0033154,,Raphael Kirby,//,73,238,Miami (Fla.),0,0
-00-0033157,,Jamal Golden,3/4/1993,72,190,Georgia Tech,0,0
+00-0033157,,Jamal Golden,3/4/1993,72,190,Georgia Tech,0,42
 00-0032485,,Elie Bouka,8/15/1992,73,205,Calgary,0,30
 00-0033159,,Jake Phillips,9/4/1993,78,249,Nevada-Las Vegas,0,49
-00-0033158,,Jordan Walsh,12/11/1992,74,292,Iowa,0,0
+00-0033158,,Jordan Walsh,12/11/1992,74,292,Iowa,0,77
 00-0032486,,Kameron Canaday,8/20/1992,76,245,Portland State,0,86
 00-0032487,,Amir Carlisle,9/24/1992,70,195,Notre Dame,0,81
 00-0032480,,Eddie Yarbrough,4/24/1993,75,259,Wyoming,0,65
@@ -1987,6 +1991,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031091,K.Small,Kiero Small,5/1/1989,69,242,Arkansas,1,35
 00-0031098,,Lonnie Ballentine,4/23/1993,75,215,Memphis,3,39
 00-0031099,,Kadeem Jones,3/25/1992,70,266,Western Kentucky,0,45
+00-0032682,,Kache Palacio,1/30/1994,74,225,Washington State,0,0
 00-0027079,V.Butler,Victor Butler,7/29/1987,74,245,Oregon State,6,57
 00-0027078,T.Lang,T.J. Lang,9/20/1987,76,318,Eastern Michigan,8,70
 00-0027077,B.Hartline,Brian Hartline,11/22/1986,74,200,Ohio State,7,83
@@ -2020,6 +2025,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032353,,Chris Milton,9/15/1992,71,190,Georgia Tech,0,40
 00-0023518,C.Henry,Chris Henry,5/17/1983,76,200,West Virginia,5,
 00-0023519,E.Hobbs,Ellis Hobbs,5/16/1983,69,195,Iowa State,6,
+00-0032356,,Anthony Sarao,4/29/1993,71,233,USC,0,0
 00-0032357,,Delvon Simmons,11/30/1992,77,295,USC,0,65
 00-0016112,J.Taylor,Jason Taylor,9/1/1974,78,244,Akron,15,
 00-0030983,,Abasi Salimu,4/14/1990,77,310,Nicholls State,0,60
@@ -2223,7 +2229,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0026053,J.West,Joe West,2/1/1984,73,208,Texas-El Paso,2,
 00-0030851,,Eric Pike,3/19/1991,77,298,Towson,0,63
 00-0030850,C.Parkey,Cody Parkey,2/19/1992,72,193,Auburn,3,1
-00-0030853,L.Purifoy,Loucheiz Purifoy,12/16/1992,71,188,Florida,0,0
+00-0030581,A.Yates,Adam Yates,2/19/1990,73,195,South Carolina,,
 00-0030855,Z.Tipton,Zurlon Tipton,4/27/1989,72,231,Central Michigan,2,0
 00-0030586,R.Nassib,Ryan Nassib,3/10/1990,74,223,Syracuse,4,12
 00-0030585,J.Pugh,Justin Pugh,8/15/1990,76,301,Syracuse,4,67
@@ -2238,6 +2244,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029630,M.Brockers,Michael Brockers,12/21/1990,77,326,LSU,4,90
 00-0024741,K.Grennan,Keith Grennan,5/20/1984,76,298,Eastern Washington,3,
 00-0024745,L.Leonard,Louis Leonard,7/16/1984,76,325,Fresno State,5,
+00-0033171,,Jesse Schmitt,8/25/1992,74,249,Purdue,0,0
 00-0029670,M.Barron,Mark Barron,10/27/1989,74,213,Alabama,4,26
 00-0029122,A.Henry,Aaron Henry,11/28/1988,72,208,Wisconsin,1,
 00-0032456,,Prince Charles Iworah,3/11/1993,71,193,Western Kentucky,0,30
@@ -2336,6 +2343,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029938,J.Williams,Jerodis Williams,3/30/1991,70,203,Furman,1,33
 00-0023379,B.Rideau,Brandon Rideau,10/18/1982,75,198,Kansas,5,
 00-0032536,,Quinton Schooley,12/4/1993,76,298,North Carolina State,0,61
+00-0032537,,Canaan Severin,3/16/1993,74,205,Virginia,0,83
 00-0025795,N.McCaskill,Nevin McCaskill,12/29/1983,75,309,Hampton,5,
 00-0025790,M.Washington,Mark Washington,8/20/1985,75,258,Texas State,4,
 00-0020543,M.Light,Matt Light,6/23/1978,76,305,Purdue,11,
@@ -2366,7 +2374,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027791,J.Starks,James Starks,2/25/1986,74,218,Buffalo,7,44
 00-0032439,,Jimmy Landes,8/13/1992,73,252,Baylor,0,42
 00-0032438,,Maurice Canady,5/26/1994,73,193,Virginia,0,49
-00-0029837,M.Edwards,Mike Edwards,12/14/1989,71,200,Texas-El Paso,,
+00-0027479,M.Brown,Marcus Brown,1/27/1987,73,190,Arkansas State,3,
 00-0029836,K.Davis,Keenan Davis,1/30/1991,75,215,Iowa,,
 00-0024687,D.Zeigler,Dominique Zeigler,10/11/1984,75,185,Baylor,4,
 00-0024681,B.London,Brandon London,10/16/1984,76,210,Massachusetts,4,
@@ -2428,7 +2436,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028217,R.Brown,Ronnell Brown,7/2/1988,74,286,James Madison,1,
 00-0028212,C.Miller,Colin Miller,11/22/1987,75,300,Central Michigan,1,
 00-0028002,R.Cobb,Randall Cobb,8/22/1990,70,192,Kentucky,6,18
-00-0029202,M.Adams,Mike Adams,3/10/1990,79,323,Ohio State,4,76
+00-0029202,M.Adams,Mike Adams,3/10/1990,79,323,Ohio State,5,76
 00-0023331,M.Katula,Matt Katula,8/22/1982,78,265,Wisconsin,8,
 00-0029973,A.Highsmith,Alonzo Highsmith,11/21/1989,72,240,Arkansas,1,59
 00-0029975,J.Kovacs,Jordan Kovacs,6/12/1990,70,208,Michigan,3,32
@@ -2439,7 +2447,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0006072,M.Goff,Mike Goff,1/6/1976,77,311,Iowa,12,
 00-0029976,,Ina Liaina,1/3/1990,72,250,San Jose State,1,41
 00-0031612,,Aaron Ripkowski,12/20/1992,73,246,Oklahoma,2,22
-00-0031613,,Amarlo Herrera,9/20/1991,73,249,Georgia,1,49
+00-0031613,,Amarlo Herrera,9/20/1991,73,249,Georgia,1,0
 00-0029977,,Cameron Marshall,10/14/1991,71,215,Arizona State,1,43
 00-0031618,,Kristjan Sokoli,9/24/1991,77,300,Buffalo,2,67
 00-0031619,,Christian Covington,10/16/1993,74,289,Rice,2,95
@@ -2487,10 +2495,10 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0030824,C.Loston,Craig Loston,12/21/1989,74,209,LSU,2,20
 00-0033117,,Bronson Kaufusi,7/6/1991,78,285,Brigham Young,0,92
 00-0033116,,Bryce Cheek,8/28/1993,72,194,Akron,0,0
-00-0029688,D.Poe,Dontari Poe,8/18/1990,75,346,Memphis,5,92
+00-0030534,B.Jones,Barrett Jones,5/25/1990,76,308,Alabama,3,77
 00-0029689,D.Allen,Dwayne Allen,2/24/1990,75,265,Clemson,5,83
 00-0029687,M.Kalil,Matt Kalil,7/6/1989,79,317,USC,5,75
-00-0029684,B.Thompson,Brandon Thompson,10/19/1989,74,305,Clemson,5,98
+00-0030538,J.Cyprien,Johnathan Cyprien,7/29/1990,72,223,Florida International,3,37
 00-0030539,D.Gratz,Dwayne Gratz,3/8/1990,71,206,Connecticut,3,27
 00-0024117,W.Kershaw,William Kershaw,12/15/1983,75,250,Maryland,4,
 00-0027300,E.Moncur,Eric Moncur,11/28/1984,73,237,Miami (Fla.),1,
@@ -2656,8 +2664,9 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032070,,Dezmin Lewis,12/5/1992,76,214,Central Arkansas,1,13
 00-0032073,,Jake Heaps,6/19/1991,73,217,Miami (Fla.),1,5
 00-0032072,,Rory Anderson,10/2/1992,76,246,South Carolina,2,83
-00-0032074,,Chi Chi Ariguzo,6/23/1992,73,235,Northwestern,0,40
+00-0032074,,Chi Chi Ariguzo,6/23/1992,73,235,Northwestern,2,40
 00-0021236,R.McMichael,Randy McMichael,6/28/1979,75,248,Georgia,11,
+00-0026944,C.Munnerlyn,Captain Munnerlyn,4/10/1988,69,195,South Carolina,8,24
 00-0021235,D.Zastudil,Dave Zastudil,10/26/1978,75,220,Ohio U.,14,9
 00-0026946,B.Jones,Brad Jones,4/1/1986,75,242,Colorado,7,52
 00-0026947,E.Williams,Eddie Williams,8/22/1987,73,242,Idaho,4,
@@ -2724,7 +2733,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0022157,J.Faine,Jeff Faine,4/6/1981,75,291,Notre Dame,10,
 00-0029894,,Kapron Lewis-Moore,1/24/1990,76,315,Notre Dame,4,95
 00-0029677,B.Weeden,Brandon Weeden,10/14/1983,76,228,Oklahoma State,5,5
-00-0030890,,Kelvin Palmer,10/23/1990,76,290,Baylor,1,69
+00-0030890,,Kelvin Palmer,10/23/1990,76,290,Baylor,2,69
 00-0023251,K.Eckel,Kyle Eckel,12/30/1981,71,237,Navy,5,
 00-0030815,T.Zimmerman,Ty Zimmerman,6/23/1990,73,204,Kansas State,2,49
 00-0030814,,Pierre Warren,8/16/1992,74,200,Jacksonville State,2,42
@@ -2739,6 +2748,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032491,,Bryson Albright,3/15/1994,77,225,Miami (Ohio),0,49
 00-0029678,D.DeCastro,David DeCastro,1/11/1990,77,316,Stanford,5,66
 00-0032497,,Reid Ferguson,3/24/1994,74,244,LSU,0,69
+00-0033137,,Eric Wallace,12/13/1988,79,233,Seattle,0,0
 00-0033135,,Mandel Dixon,4/21/1993,74,240,Tulsa,0,49
 00-0033134,,Ra'Zahn Howard,8/8/1994,75,325,Purdue,0,60
 00-0033133,,Warren Gatewood,3/30/1994,71,188,Alcorn State,0,26
@@ -2746,7 +2756,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0033131,,Maliek Collins,4/8/1995,74,305,Nebraska,0,96
 00-0033130,,Max Tuerk,1/27/1994,77,298,USC,0,62
 00-0029898,D.Carr,Deveron Carr,8/10/1990,71,194,Arizona State,2,1
-00-0033139,,Joel Hale,//,76,311,Ohio State,0,60
+00-0033139,,Joel Hale,6/8/1992,76,311,Ohio State,0,60
 00-0019213,L.Paxton,Lonie Paxton,3/13/1978,74,270,Sacramento State,13,
 00-0032947,,Avery Young,11/12/1992,78,305,Auburn,0,67
 00-0032946,,De'Vante Harris,6/30/1993,71,190,Texas A&M,0,49
@@ -2772,7 +2782,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031077,K.James,Kendall James,6/29/1991,72,180,Maine,1,36
 00-0031070,N.Berhe,Nat Berhe,7/6/1991,72,194,San Diego State,3,29
 00-0031071,C.Reid,Caraun Reid,11/23/1991,74,298,Princeton,3,97
-00-0031072,V.Sunseri,Vinnie Sunseri,10/25/1991,72,210,Alabama,2,43
+00-0031072,V.Sunseri,Vinnie Sunseri,10/25/1991,72,210,Alabama,3,0
 00-0031073,R.Powell,Ronald Powell,5/14/1991,75,237,Florida,2,56
 00-0031078,L.Seastrunk,Lache Seastrunk,7/29/1991,70,210,Baylor,1,30
 00-0031079,P.O'Donnell,Pat O'Donnell,2/22/1991,76,217,Miami (Fla.),3,16
@@ -2784,6 +2794,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032661,,Ben Braunecker,2/7/1994,76,255,Harvard,0,43
 00-0032662,,Dan Buchholz,8/3/1993,76,301,Duquesne,0,73
 00-0032663,,Taveze Calhoun,12/26/1992,73,188,Mississippi State,0,33
+00-0032668,,Joe Sommers,3/3/1993,75,240,Wis.-Oshkosh,0,0
 00-0031388,,Aaron Donald,5/23/1991,73,285,Pittsburgh,2,99
 00-0031389,L.Joyner,Lamarcus Joyner,11/27/1990,68,184,Florida State,2,20
 00-0031386,,Greg Robinson,10/21/1992,77,332,Auburn,2,73
@@ -2795,6 +2806,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031380,D.Dennard,Darqueze Dennard,10/10/1991,71,197,Michigan State,3,21
 00-0031381,D.Adams,Davante Adams,12/24/1992,73,215,Fresno State,3,17
 00-0000045,F.Adams,Flozell Adams,5/18/1975,79,338,Michigan State,13,
+00-0032514,,Shaneil Jenkins,2/7/1994,76,275,Shepherd,0,0
 00-0018351,R.Wynn,Renaldo Wynn,9/3/1974,75,280,Notre Dame,13,
 00-0006915,A.Harris,Al Harris,12/7/1974,73,194,Texas A&M; - Kingsville,14,
 00-0013126,J.Porter,Joey Porter,3/22/1977,75,248,Colorado State,13,
@@ -2818,7 +2830,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0030032,K.Glaud,Ka'Lial Glaud,11/9/1990,74,220,Rutgers,2,47
 00-0030031,C.Denton,Chris Denton,8/28/1991,71,195,Mount Union,,
 00-0030030,,Jace Daniels,3/6/1990,76,300,Northern Michigan,1,64
-00-0032862,,Sam Carlson,4/30/1993,76,280,Colorado State,0,0
+00-0032862,,Sam Carlson,4/30/1993,76,280,Colorado State,0,69
 00-0032860,,Mehdi Abdesmad,9/28/1991,78,284,Boston College,0,68
 00-0032861,,Lamarcus Brutus,2/10/1993,72,206,Florida State,0,42
 00-0032867,,Tyler Marz,9/9/1992,79,316,Wisconsin,0,68
@@ -2906,7 +2918,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0025992,S.Giguere,Samuel Giguere,7/11/1985,71,218,Unknown,4,
 00-0025993,C.Johnson,Curtis Johnson,2/16/1985,75,254,Clark Atlanta,4,
 00-0025991,E.Foster,Eric Foster,4/5/1985,74,265,Rutgers,5,
-00-0025999,D.Hawthorne,David Hawthorne,5/14/1985,72,246,Texas Christian,8,57
+00-0025999,D.Hawthorne,David Hawthorne,5/14/1985,72,246,Texas Christian,9,57
 00-0031248,,Julian Horton,12/12/1991,73,205,Arkansas,0,18
 00-0023252,R.Gould,Robbie Gould,12/6/1981,72,190,Penn State,12,45
 00-0023693,C.Blackburn,Chase Blackburn,6/10/1983,75,240,Akron,10,93
@@ -2941,6 +2953,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024825,J.Nordin,Jake Nordin,7/8/1984,75,262,Northern Illinois,3,
 00-0029481,D.Pannell,DeOn'tae Pannell,3/19/1990,77,323,Penn State,1,
 00-0020006,A.Pierce,Antonio Pierce,10/26/1978,73,238,Arizona,9,
+00-0029953,L.Pryor,Lonnie Pryor,2/22/1990,72,224,Florida State,2,45
 00-0031653,,Travis Raciti,5/21/1992,76,305,San Jose State,1,60
 00-0031654,,Al Bond,3/5/1992,76,305,Memphis,1,68
 00-0031656,,Kyle Brindza,1/13/1993,72,239,Notre Dame,0,2
@@ -3035,6 +3048,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0018486,J.Zelenka,Joe Zelenka,3/9/1976,75,266,Wake Forest,14,
 00-0024067,L.Vickers,Lee Vickers,3/13/1981,78,275,North Alabama,5,
 00-0024061,T.Williams,Tramon Williams,3/16/1983,72,192,Louisiana Tech,10,22
+00-0029928,E.Highsmith,Erik Highsmith,11/20/1990,73,190,North Carolina,,
 00-0023482,M.Nugent,Mike Nugent,3/2/1982,70,190,Ohio State,12,2
 00-0023480,L.Tatupu,Lofa Tatupu,11/15/1982,72,250,USC,6,
 00-0023481,M.Roth,Matt Roth,10/14/1982,76,275,Iowa,7,
@@ -3043,7 +3057,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0023485,R.Bartell,Ron Bartell,2/22/1982,73,210,Howard,9,
 00-0032844,,Brandon Burks,11/1/1993,69,208,Troy,0,34
 00-0032845,,Alstevis Squirewell,9/17/1992,72,265,Newberry,0,40
-00-0032846,,Cory Tucker,//,76,315,Slippery Rock,0,68
+00-0032846,,Cory Tucker,11/20/1992,76,315,Slippery Rock,0,68
 00-0032847,,Darrin Peterson,7/14/1994,74,214,Liberty,0,15
 00-0032840,,Myke Tavarres,11/18/1992,73,230,Incarnate Word (Tex.),0,45
 00-0032841,,Paul Turner,5/10/1993,70,193,Louisiana Tech,0,80
@@ -3292,6 +3306,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032628,,Kentrell Brice,8/11/1994,71,200,Louisiana Tech,0,29
 00-0032629,,Beniquez Brown,4/29/1993,73,236,Mississippi State,0,43
 00-0008241,E.James,Edgerrin James,8/1/1978,72,219,Miami (Fla.),11,
+00-0029593,J.Martin,Jonathan Martin,8/19/1989,77,312,Stanford,4,0
 00-0024437,D.Shockley,D.J. Shockley,3/23/1983,72,218,Georgia,3,
 00-0024434,T.Adams,Titus Adams,1/28/1983,76,305,Nebraska,4,
 00-0024432,T.Watkins,Todd Watkins,6/22/1983,74,187,Brigham Young,5,
@@ -3320,7 +3335,6 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031592,,David Parry,3/7/1992,74,310,Stanford,2,54
 00-0031591,,Cedric Thompson,2/10/1993,72,210,Minnesota,1,41
 00-0031590,,Jay Ajayi,6/15/1993,72,229,Boise State,2,23
-00-0026744,D.Beckwith,Darry Beckwith,5/15/1987,72,242,LSU,1,
 00-0026779,G.Isdaner,Greg Isdaner,2/25/1987,76,325,West Virginia,2,
 00-0026771,J.Word-Daniels,Jahi Word-Daniels,11/19/1986,72,194,Georgia Tech,2,
 00-0026770,C.Thomas,Carlos Thomas,5/1/1987,71,197,South Carolina,1,
@@ -3404,7 +3418,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0021246,L.Foote,Larry Foote,6/12/1980,73,239,Michigan,13,50
 00-0032907,,Adrian McDonald,3/18/1994,69,190,Houston,0,27
 00-0026567,M.Reilly,Mike Reilly,1/1/1985,75,212,Central Washington,1,
-00-0032016,,SaQwan Edwards,5/13/1992,72,200,New Mexico,0,30
+00-0032016,,SaQwan Edwards,5/13/1992,72,200,New Mexico,1,30
 00-0032014,,Travell Dixon,2/17/1991,73,210,Washington,1,30
 00-0032013,,Mitchell Bell,9/12/1992,75,345,Louisiana Tech,1,65
 00-0026296,D.Dixon,Dennis Dixon,1/11/1985,75,215,Oregon,5,6
@@ -3622,7 +3636,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031053,J.Saunders,Jalen Saunders,9/30/1992,69,165,Oklahoma,2,0
 00-0021297,J.Hartwig,Justin Hartwig,11/21/1978,77,312,Kansas,9,
 00-0021296,J.O'Sullivan,J.T. O'Sullivan,8/25/1979,74,232,California-Davis,9,
-00-0028322,De.Washington,Demond Washington,9/30/1987,69,182,Auburn,1,
+00-0028450,V.Agnew,Vince Agnew,12/28/1987,70,196,Central Michigan,1,
 00-0023288,E.Oglesby,Evan Oglesby,12/18/1981,71,182,North Alabama,6,
 00-0029849,,Tevita Stevens,7/4/1987,73,302,Utah,1,62
 00-0028451,B.Brackett,Brett Brackett,12/13/1987,77,246,Penn State,3,87
@@ -3675,7 +3689,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027661,J.Cunningham,Jermaine Cunningham,4/24/1988,75,255,Florida,6,55
 00-0027198,B.Harvey,Brandyn Harvey,11/6/1987,76,205,Villanova,3,
 00-0027199,W.Johnson,Weston Johnson,1/15/1987,75,233,Wyoming,1,
-00-0027668,B.Spikes,Brandon Spikes,9/3/1987,74,255,Florida,6,0
+00-0027668,B.Spikes,Brandon Spikes,9/3/1987,74,255,Florida,6,51
 00-0027669,C.Brown,Charles Brown,4/10/1987,77,300,USC,6,78
 00-0029320,T.Biere,Tim Biere,9/10/1989,76,260,Kansas,,
 00-0023639,J.Berger,Joe Berger,5/25/1982,77,305,Michigan Tech,12,61
@@ -3685,9 +3699,9 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024819,M.Price,Maurice Price,9/11/1985,73,197,Charleston Southern,4,
 00-0029327,B.Kinnie,Brandon Kinnie,12/27/1988,75,220,Nebraska,1,
 00-0028142,V.Green,Virgil Green,8/3/1988,77,255,Nevada,6,85
-00-0029328,T.Parks,Terrance Parks,4/14/1990,74,218,Florida State,1,27
+00-0022167,C.Crocker,Chris Crocker,3/9/1980,71,197,Marshall,12,25
 00-0028140,J.Williams,Jacquian Williams,7/20/1988,75,231,South Florida,4,57
-00-0033141,,Rashaun Simonise,//,77,190,Calgary,0,13
+00-0033141,,Rashaun Simonise,5/31/1995,77,190,Calgary,0,13
 00-0028145,K.Lindsey,Korey Lindsey,2/3/1989,70,194,Southern Illinois,1,41
 00-0018503,J.Zgonina,Jeff Zgonina,5/24/1970,74,285,Purdue,17,
 00-0032389,,Mackensie Alexander,11/12/1993,70,192,Clemson,0,20
@@ -3974,7 +3988,6 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024349,R.Ninkovich,Rob Ninkovich,2/1/1984,74,260,Purdue,11,50
 00-0032592,,Sharrod Neasman,10/14/1991,71,213,Florida Atlantic,0,20
 00-0032593,,Brandon Wilds,7/22/1993,72,220,South Carolina,0,20
-00-0032590,,Gerald Dixon,3/30/1993,74,325,South Carolina,0,0
 00-0032591,,Chris Mayes,9/27/1991,75,349,Georgia,0,74
 00-0031310,D.Street,Devin Street,3/30/1991,75,200,Pittsburgh,3,15
 00-0019724,M.Roman,Mark Roman,3/26/1977,71,205,LSU,10,
@@ -4202,7 +4215,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024324,J.Avant,Jason Avant,4/20/1983,72,210,Michigan,10,81
 00-0024325,L.Williams,Leon Williams,7/30/1983,75,248,Miami (Fla.),6,
 00-0021949,C.Johnson,Chris Johnson,9/25/1979,73,200,Louisville,10,
-00-0024323,J.Evans,Jahri Evans,8/22/1983,76,318,Bloomsburg,10,73
+00-0024323,J.Evans,Jahri Evans,8/22/1983,76,318,Bloomsburg,11,73
 00-0024320,K.Simpson,Ko Simpson,11/9/1983,73,202,South Carolina,5,
 00-0024321,G.Mills,Garrett Mills,10/12/1983,73,235,Tulsa,6,
 00-0022949,S.Baggs,Stevie Baggs,12/30/1981,73,240,Bethune-Cookman,2,
@@ -4211,6 +4224,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0022944,B.Sanders,Bob Sanders,2/24/1981,68,206,Iowa,8,
 00-0009687,T.Law,Ty Law,2/10/1974,71,200,Michigan,15,
 00-0029211,J.McMillian,Jerron McMillian,4/2/1989,71,203,Maine,3,34
+00-0029328,T.Parks,Terrance Parks,4/14/1990,74,218,Florida State,1,27
 00-0032265,,Mario Edwards,1/25/1994,75,280,Florida State,2,97
 00-0019706,F.Robbins,Fred Robbins,3/26/1977,76,322,Wake Forest,12,
 00-0019700,C.Griffin,Cornelius Griffin,12/3/1976,76,303,Alabama,10,
@@ -4218,7 +4232,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0012023,J.Nesbit,Jamar Nesbit,12/17/1976,76,328,South Carolina,11,
 00-0019709,C.Redman,Chris Redman,7/7/1977,75,225,Louisville,10,
 00-0032969,,Nick Martin,4/29/1993,76,299,Notre Dame,0,66
-00-0028450,V.Agnew,Vince Agnew,12/28/1987,70,196,Central Michigan,1,
+00-0028322,De.Washington,Demond Washington,9/30/1987,69,182,Auburn,1,
 00-0028323,T.McCarthy,Tom McCarthy,9/6/1988,78,252,Yale,1,
 00-0028320,M.Hansen,Matt Hansen,9/10/1989,73,230,Rhode Island,2,
 00-0028321,J.Paul,Josue Paul,11/14/1988,73,190,Central Connecticut State,1,
@@ -4362,7 +4376,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0021142,M.Williams,Mike Williams,1/11/1980,79,337,Texas,7,
 00-0030644,A.Davis,Akeem Davis,12/25/1989,73,200,Memphis,3,43
 00-0030645,,Cam White,7/15/1990,74,251,Hillsdale,0,43
-00-0029792,P.Worrilow,Paul Worrilow,5/1/1990,72,230,Delaware,4,55
+00-0030646,S.Campbell,Stephen Campbell,10/10/1990,73,245,West Virginia Wesleyan,0,45
 00-0029793,B.Williams,Brandon Williams,10/12/1987,75,247,Oregon,4,86
 00-0029794,D.Bates,Daren Bates,11/27/1990,71,225,Auburn,4,56
 00-0029795,B.Cunningham,Benny Cunningham,7/7/1990,70,217,Middle Tennessee State,3,36
@@ -4378,7 +4392,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0026081,L.Leggett,Lance Leggett,2/11/1985,75,205,Miami (Fla.),1,
 00-0026080,J.Lee,James Lee,8/17/1985,76,308,South Carolina State,5,
 00-0026084,B.Schaefering,Brian Schaefering,8/20/1983,76,295,Lindenwood,5,
-00-0027420,T.Hudgins,Terrell Hudgins,2/24/1987,74,225,Elon,1,
+00-0027932,C.Carter,Chris Carter,6/14/1987,71,191,California-Davis,1,
 00-0027421,B.McCann,Bryan McCann,9/29/1987,71,185,Southern Methodist,5,0
 00-0027422,D.McCray,Danny McCray,3/10/1988,73,215,LSU,6,40
 00-0027423,L.Miller,Lonyae Miller,4/29/1988,72,216,Fresno State,3,
@@ -4445,7 +4459,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024796,C.Dahl,Craig Dahl,6/17/1985,73,212,North Dakota State,9,43
 00-0022177,B.Leftwich,Byron Leftwich,1/14/1980,77,250,Marshall,10,
 00-0014071,A.Rossum,Allen Rossum,10/22/1975,68,178,Notre Dame,12,
-00-0033150,,Montario Hunter,//,73,190,Elizabeth City State,0,83
+00-0033150,,Montario Hunter,11/23/1991,73,190,Elizabeth City State,0,83
 00-0028155,M.Hurt,Maurice Hurt,11/8/1987,75,329,Florida,4,79
 00-0028157,M.Williams,Malcolm Williams,11/22/1987,71,205,Texas Christian,2,
 00-0024245,J.Addai,Joseph Addai,5/3/1983,71,214,LSU,6,
@@ -4472,7 +4486,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024308,D.Byrd,Dominique Byrd,2/7/1984,75,255,USC,5,
 00-0024309,F.Keiaho,Freddy Keiaho,12/18/1982,71,226,San Diego State,5,
 00-0029791,R.Wingo,Ronnie Wingo,2/18/1991,75,231,Arkansas,2,0
-00-0030646,S.Campbell,Stephen Campbell,10/10/1990,73,245,West Virginia Wesleyan,0,45
+00-0029792,P.Worrilow,Paul Worrilow,5/1/1990,72,230,Delaware,4,55
 00-0030647,,Jordan Thompson,7/12/1989,76,257,Ohio U.,1,82
 00-0001477,M.Booker,Marty Booker,7/31/1976,72,205,Louisiana-Monroe,11,
 00-0030640,M.Ball,Marcus Ball,7/21/1987,73,215,Memphis,2,36
@@ -4560,7 +4574,6 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032283,,Kevin Monangai,3/4/1993,68,209,Villanova,1,39
 00-0032287,,Ed Williams,3/14/1991,72,196,Fort Hays State,1,19
 00-0032284,B.Bars,Brad Bars,4/24/1992,75,251,Penn State,2,66
-00-0028295,C.Franklin,Collin Franklin,7/20/1988,77,252,Iowa State,2,
 00-0021512,Q.Mikell,Quintin Mikell,9/16/1980,70,205,Boise State,11,27
 00-0028829,R.Adams,Royce Adams,5/3/1988,72,190,Purdue,2,40
 00-0028798,R.Medlin,Richard Medlin,3/4/1987,71,200,Fayetteville State,2,
@@ -4601,7 +4614,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0030626,P.Murray,Patrick Murray,6/22/1991,67,182,Fordham,3,2
 00-0030622,F.Williams,Fred Williams,4/15/1988,72,190,St. Cloud State,1,83
 00-0030621,,Michael Ola,4/19/1988,77,312,Hampton,3,78
-00-0027932,C.Carter,Chris Carter,6/14/1987,71,191,California-Davis,1,
+00-0027420,T.Hudgins,Terrell Hudgins,2/24/1987,74,225,Elon,1,
 00-0032467,,Christian French,8/18/1992,77,245,Oregon,0,0
 00-0027930,T.Duhart,Tommie Duhart,12/30/1985,75,318,Valdosta State,1,
 00-0027931,R.Perrilloux,Ryan Perrilloux,1/1/1987,75,204,Jacksonville State,2,
@@ -4669,7 +4682,6 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029673,D.Posey,DeVier Posey,3/15/1990,73,210,Ohio State,4,15
 00-0003239,R.Coleman,Rod Coleman,8/16/1976,74,285,East Carolina,10,
 00-0031581,,Mark Glowinski,5/3/1992,76,310,West Virginia,2,63
-00-0029672,R.Reiff,Riley Reiff,12/1/1988,78,308,Iowa,5,71
 00-0032784,,Kevin Hogan,10/20/1992,75,218,Stanford,0,8
 00-0032956,,Andy Janovich,5/23/1993,73,238,Nebraska,0,32
 00-0032358,,Tevaun Smith,1/30/1993,74,205,Iowa,0,5
@@ -4828,7 +4840,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032119,,Anthony Morris,3/25/1992,79,300,Tennessee State,0,79
 00-0031224,,Lacoltan Bester,11/12/1991,75,208,Oklahoma,0,12
 00-0023460,J.Campbell,Jason Campbell,12/31/1981,77,235,Auburn,10,17
-00-0027200,G.Lindholm,Garrett Lindholm,8/10/1988,69,190,Tarleton State,1,
+00-0027752,A.Lane,Austen Lane,11/9/1987,78,265,Murray State,4,73
 00-0023462,R.White,Roddy White,11/2/1981,72,211,Alabama-Birmingham,11,84
 00-0023463,L.Castillo,Luis Castillo,8/4/1983,75,290,Northwestern,7,
 00-0023464,M.Jackson,Marlin Jackson,6/30/1983,72,196,Michigan,7,
@@ -5021,7 +5033,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032328,,Ronnie Shields,12/15/1991,76,245,Kentucky,1,87
 00-0026566,I.Redman,Isaac Redman,11/10/1984,72,230,Bowie State,4,
 00-0032320,,Erik Harris,4/2/1990,75,225,California (PA),1,30
-00-0032323,,Derrick Mathews,9/25/1992,72,221,Houston,1,0
+00-0032323,,Derrick Mathews,9/25/1992,72,221,Houston,1,45
 00-0032322,,Dexter McCoil,9/5/1991,76,220,Tulsa,1,38
 00-0032325,,Jamel Johnson,7/9/1991,74,217,Alabama State,1,10
 00-0032324,,Cornelius Edison,7/10/1993,75,309,Portland State,1,60
@@ -5039,6 +5051,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031744,,Matt LaCosse,9/21/1992,77,261,Illinois,1,81
 00-0031743,,Akeem Hunt,2/22/1993,70,190,Purdue,2,33
 00-0031740,,Neville Hewitt,4/6/1993,74,232,Marshall,2,46
+00-0032934,,Tony McRae,5/3/1993,69,178,North Carolina,0,0
 00-0022050,P.Tinoisamoa,Pisa Tinoisamoa,7/15/1981,73,230,Hawaii,8,
 00-0022054,V.Shiancoe,Visanthe Shiancoe,6/18/1980,76,250,Morgan State,11,80
 00-0022055,S.Wallace,Seneca Wallace,8/6/1980,71,205,Iowa State,10,9
@@ -5055,6 +5068,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0026619,T.Fein,Tony Fein,7/13/1982,74,245,Mississippi,1,
 00-0026968,R.Succop,Ryan Succop,9/19/1986,74,218,South Carolina,8,4
 00-0026969,D.Frischknecht,Devin Frischknecht,11/6/1986,75,258,Washington State,0,
+00-0029896,A.Mellette,Aaron Mellette,12/28/1989,74,217,Elon,2,13
 00-0029431,T.Dye,Tony Dye,2/11/1990,70,205,UCLA,2,0
 00-0029430,T.Robertson,Travian Robertson,12/9/1988,76,304,South Carolina,4,79
 00-0029433,E.Akpla,Elvis Akpla,1/6/1989,73,190,Montana State,1,
@@ -5162,7 +5176,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029087,L.Johnson,Leonard Johnson,3/30/1990,70,200,Iowa State,5,23
 00-0029620,B.Marshall,Brandon Marshall,9/10/1989,73,250,Nevada,5,54
 00-0029621,G.Zuerlein,Greg Zuerlein,12/27/1987,72,196,Missouri Western State,4,4
-00-0030596,J.Williams,Josh Williams,9/24/1990,76,257,Kansas,,
+00-0029622,J.Pendleton,Jeris Pendleton,11/7/1983,74,323,Ashland,3,61
 00-0032688,,Robby Anderson,5/9/1993,75,190,Temple,0,83
 00-0030849,N.Obukwelu,Nnamdi Obukwelu,4/13/1991,75,303,Harvard,0,67
 00-0025558,C.Oldenburg,Clint Oldenburg,9/9/1983,77,305,Colorado State,5,
@@ -5254,7 +5268,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027041,B.Fletcher,Bradley Fletcher,6/25/1986,72,205,Iowa,7,24
 00-0027048,G.Coffee,Glen Coffee,5/1/1987,72,209,Alabama,2,
 00-0027049,R.Brewster,Robert Brewster,7/30/1986,76,320,Ball State,1,
-00-0030653,,Ray Agnew,2/26/1991,70,245,Southern Illinois,2,48
+00-0021178,C.Pitts,Chester Pitts,6/26/1979,76,308,San Diego State,9,
 00-0030652,,Josh Walker,6/2/1991,77,328,Middle Tennessee State,2,79
 00-0015495,S.Springs,Shawn Springs,3/11/1975,72,204,Ohio State,13,
 00-0017899,P.Williams,Pat Williams,10/24/1972,75,317,Texas A&M;,14,
@@ -5291,7 +5305,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0022077,N.Asomugha,Nnamdi Asomugha,7/6/1981,74,210,California,11,
 00-0022073,K.Williams,Kevin Williams,8/16/1980,77,311,Oklahoma State,13,93
 00-0022078,J.Stinchcomb,Jonathan Stinchcomb,8/27/1979,77,315,Georgia,9,
-00-0026944,C.Munnerlyn,Captain Munnerlyn,4/10/1988,69,195,South Carolina,8,24
+00-0028747,M.Tatum,Malcolm Tatum,3/25/1989,74,250,Louisville,1,
 00-0026945,E.Biggers,E.J. Biggers,6/13/1987,72,190,Western Michigan,8,39
 00-0029419,D.Kelly,Dennis Kelly,1/16/1990,80,321,Purdue,5,67
 00-0029418,N.Goode,Najee Goode,6/4/1989,72,244,West Virginia,5,52
@@ -5308,7 +5322,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029415,K.Martin,Keshawn Martin,3/15/1990,71,195,Michigan State,5,82
 00-0029414,O.Charles,Orson Charles,1/27/1991,75,254,Georgia,4,81
 00-0028740,U.Chinasa,Ugo Chinasa,7/30/1988,77,252,Oklahoma State,2,
-00-0028441,J.Johnson,Jeron Johnson,6/12/1988,70,212,Boise State,5,20
+00-0028441,J.Johnson,Jeron Johnson,6/12/1988,70,212,Boise State,6,20
 00-0025761,R.Turner,Robert Turner,8/20/1984,76,308,New Mexico,7,76
 00-0022388,T.Copper,Terrance Copper,3/12/1982,72,207,East Carolina,10,
 00-0022387,S.Cargile,Steve Cargile,6/2/1982,74,210,Columbia,5,
@@ -5478,9 +5492,9 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031337,,Marcus Martin,11/29/1993,75,321,USC,3,66
 00-0031336,K.Ealy,Kony Ealy,12/21/1991,76,275,Missouri,3,94
 00-0031335,,Cyrus Kouandjio,7/21/1993,79,322,Alabama,2,71
-00-0033142,,T.J. Thorpe,//,72,200,Virginia,0,6
-00-0033143,,Kendal Thompson,//,74,198,Utah,0,86
-00-0033140,,Darnell Sankey,//,74,250,Sacramento State,0,49
+00-0033142,,T.J. Thorpe,5/26/1993,72,200,Virginia,0,6
+00-0033143,,Kendal Thompson,5/14/1992,74,198,Utah,0,86
+00-0033140,,Darnell Sankey,10/11/1994,74,250,Sacramento State,0,49
 00-0031334,,Jason Verrett,6/18/1991,70,188,Texas Christian,3,22
 00-0033146,,David Watford,6/16/1993,74,212,Hampton,0,9
 00-0033147,,Darron Lee,10/18/1994,73,232,Ohio State,0,50
@@ -5488,10 +5502,9 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0033148,,Harvey Binford,1/20/1991,72,185,Lindenwood,1,13
 00-0031332,F.Toussaint,Fitzgerald Toussaint,5/4/1990,69,204,Michigan,3,33
 00-0031331,P.Desir,Pierre Desir,9/8/1990,74,206,Lindenwood,3,26
-00-0029041,G.Kinne,G.J. Kinne,12/1/1988,74,218,Tulsa,1,4
 00-0031330,M.Moses,Morgan Moses,3/3/1991,78,335,Virginia,3,76
 00-0032712,,Boston Stiverson,10/8/1992,75,310,Kansas State,0,63
-00-0032713,,Kevin Anderson,//,76,244,Stanford,0,0
+00-0032713,,Kevin Anderson,4/5/1993,76,244,Stanford,0,0
 00-0032718,,Jason Fanaika,6/17/1992,75,270,Utah,0,45
 00-0032719,,Lenny Jones,8/8/1991,75,269,Nevada,0,0
 00-0020873,Ba.Scott,Bart Scott,8/18/1980,74,242,Southern Illinois,11,
@@ -5518,6 +5531,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031318,,Sam Longo,7/31/1991,77,305,Cincinnati,0,72
 00-0023838,M.Baker,Matt Baker,5/11/1983,74,217,North Carolina,3,
 00-0032365,,DeMarcus Ayers,7/7/1994,71,190,Houston,0,82
+00-0032364,,Michael Cooper,10/21/1992,77,257,Indiana,0,0
 00-0032367,,Ejiro Ederaine,11/18/1993,75,237,Fresno State,0,40
 00-0032366,,Tyler Matakevich,12/22/1992,73,235,Temple,0,46
 00-0032361,,Curt Maggitt,2/4/1993,75,250,Tennessee,0,92
@@ -5682,7 +5696,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029046,R.Steed,Ryan Steed,7/21/1990,71,185,Furman,1,
 00-0029047,K.Adams,Kendrick Adams,11/3/1988,77,250,LSU,1,0
 00-0029040,D.Harrison,Damon Harrison,11/29/1988,76,350,William Penn,5,98
-00-0029593,J.Martin,Jonathan Martin,8/19/1989,77,312,Stanford,4,0
+00-0029041,G.Kinne,G.J. Kinne,12/1/1988,74,218,Tulsa,1,4
 00-0029590,T.Thompson,Taylor Thompson,10/19/1989,78,268,Southern Methodist,4,84
 00-0029043,D.Lynn,D'Anton Lynn,10/24/1989,73,208,Penn State,1,
 00-0019596,T.Brady,Tom Brady,8/3/1977,76,225,Michigan,17,12
@@ -5708,7 +5722,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0026027,J.Jansen,J.J. Jansen,1/20/1986,74,240,Notre Dame,9,44
 00-0026026,J.Haynos,Joey Haynos,8/28/1984,80,270,Maryland,5,
 00-0026025,R.Harper,Rod Harper,3/26/1985,72,209,Murray State,3,
-00-0029628,C.Bilukidi,Christo Bilukidi,12/13/1989,77,310,Georgia State,4,68
+00-0029628,C.Bilukidi,Christo Bilukidi,12/13/1989,77,310,Georgia State,4,79
 00-0029629,N.Stupar,Nate Stupar,3/14/1988,74,240,Penn State,4,54
 00-0030841,,Chaz Sutton,9/7/1989,77,263,South Carolina,1,49
 00-0030846,S.Lobato,Seth Lobato,12/5/1990,78,223,Northern Colorado,1,4
@@ -5716,7 +5730,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0030845,T.Hoover,Tyler Hoover,1/28/1990,79,297,Michigan State,1,64
 00-0030594,T.Long,Travis Long,7/24/1991,76,255,Washington State,2,57
 00-0030595,T.Johnson,Travis Johnson,6/28/1991,75,244,San Jose State,,
-00-0029622,J.Pendleton,Jeris Pendleton,11/7/1983,74,323,Ashland,3,61
+00-0030596,J.Williams,Josh Williams,9/24/1990,76,257,Kansas,,
 00-0029623,A.Tanney,Alex Tanney,11/11/1987,76,220,Monmouth (Ill.),2,11
 00-0030590,,Jonathan Cooper,1/19/1990,74,310,North Carolina,4,65
 00-0030591,,Graham Pocic,4/5/1990,79,310,Illinois,2,64
@@ -5726,9 +5740,15 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024773,D.Jones,Derrick Jones,11/14/1984,76,315,Grand Valley State,4,
 00-0024772,J.Capizzi,Jason Capizzi,6/19/1983,81,330,Indiana (PA),4,
 00-0021270,J.Phillips,Jermaine Phillips,3/27/1979,74,230,Georgia,8,
+00-0033164,,Troymaine Pope,11/26/1993,70,207,Jacksonville State,0,0
+00-0033165,,Malcolm Jackson,2/4/1994,71,180,Charleston Southern,0,0
+00-0033166,,Alex Chisum,11/6/1992,75,194,Cincinnati,0,0
+00-0033167,,Anthony Kelly,4/14/1993,74,210,Kutztown,0,84
 00-0033161,,Isaiah Williams,5/5/1993,75,295,Akron,0,63
-00-0033162,,Matt Pierson,//,78,298,Oregon,0,61
-00-0033163,,Mathu Gibson,//,78,295,Wingate,0,0
+00-0033162,,Matt Pierson,2/24/1993,78,298,Oregon,0,61
+00-0033163,,Mathu Gibson,8/6/1993,78,295,Wingate,0,67
+00-0033168,,Zamir Carlis,3/14/1990,76,275,Stillman,0,0
+00-0033169,,Tom Lally,10/2/1993,74,260,Mount Union,0,78
 00-0023179,T.Curtis,Tony Curtis,2/11/1983,77,251,Portland State,6,
 00-0023173,J.Denney,John Denney,12/13/1978,77,242,Brigham Young,12,92
 00-0031635,,Andre Davis,9/1/1993,73,211,South Florida,1,14
@@ -5861,7 +5881,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029901,R.Melvin,Rashaan Melvin,10/2/1989,74,193,Northern Illinois,4,5
 00-0029900,E.Landi,Evan Landi,,75,236,South Florida,,
 00-0029904,,Brice Schwab,10/4/1989,79,302,Arizona State,2,0
-00-0023347,M.Kracalik,Mike Kracalik,9/8/1982,80,335,San Diego State,4,
+00-0029907,B.Smith,Branden Smith,12/19/1989,71,182,Georgia,,
 00-0029909,J.Weaver,Jason Weaver,4/12/1989,77,309,Southern Mississippi,2,78
 00-0027507,C.Hawkins,Chris Hawkins,4/12/1986,73,184,LSU,3,
 00-0027506,K.Haslam,Kevin Haslam,11/8/1986,77,310,Rutgers,4,
@@ -5902,7 +5922,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0020995,D.Lewis,D.D. Lewis,1/8/1979,73,241,Texas,8,
 00-0019954,K.Vincent,Keydrick Vincent,4/13/1978,77,325,Mississippi,10,
 00-0030219,E.Martin,Eric Martin,7/21/1991,74,250,Nebraska,3,52
-00-0029907,B.Smith,Branden Smith,12/19/1989,71,182,Georgia,,
+00-0023347,M.Kracalik,Mike Kracalik,9/8/1982,80,335,San Diego State,4,
 00-0030213,C.Wilkins,Craig Wilkins,11/28/1989,73,243,Old Dominion,,
 00-0030211,R.Polk,Ray Polk,4/22/1990,73,205,Colorado,,
 00-0030210,J.Lotulelei,John Lotulelei,12/4/1991,71,235,Nevada-Las Vegas,4,55
@@ -5927,7 +5947,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028262,R.Hill,Ryan Hill,4/15/1987,71,207,Miami (Fla.),1,
 00-0028260,L.Dean,Larry Dean,8/7/1988,72,226,Valdosta State,5,53
 00-0028267,A.Reisner,Allen Reisner,9/29/1988,75,255,Iowa,3,85
-00-0030581,A.Yates,Adam Yates,2/19/1990,73,195,South Carolina,,
+00-0030853,L.Purifoy,Loucheiz Purifoy,12/16/1992,71,188,Florida,0,0
 00-0030587,M.Robinson,Mason Robinson,7/24/1989,69,180,Rutgers,,
 00-0030854,,Erik Swoope,5/8/1992,77,257,Miami (Fla.),1,86
 00-0029639,J.Fleming,Jamell Fleming,5/5/1989,71,206,Oklahoma,5,30
@@ -5972,7 +5992,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029022,S.Baker,Steven Baker,11/24/1988,80,329,East Carolina,1,66
 00-0029023,C.Chism,Cameron Chism,12/25/1990,70,190,Maryland,1,
 00-0029020,M.Maze,Marquis Maze,3/2/1988,68,186,Alabama,1,
-00-0029021,C.Anunoby,Chigbo Anunoby,1/4/1989,77,320,Morehouse,2,62
+00-0029021,C.Anunoby,Chigbo Anunoby,1/4/1989,76,324,Morehouse,1,62
 00-0025468,J.Alford,Jay Alford,5/28/1983,75,304,Penn State,4,
 00-0025469,T.Tyler,Tank Tyler,2/14/1985,74,325,North Carolina State,5,
 00-0025462,L.Robinson,Laurent Robinson,5/20/1985,74,205,Illinois State,6,
@@ -6190,6 +6210,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031609,,A.J. Derby,9/20/1991,77,255,Arkansas,2,86
 00-0031608,,Quandre Diggs,1/22/1993,69,197,Texas,2,28
 00-0031603,,Tayo Fabuluje,7/17/1991,78,342,Texas Christian,0,73
+00-0031602,,Matt Wells,11/26/1990,74,222,Mississippi State,1,0
 00-0031601,,Robert Myers,12/26/1991,77,335,Tennessee State,2,70
 00-0031600,,Keith Mumphery,6/5/1992,72,215,Michigan State,2,12
 00-0031607,,L.T. Walton,3/31/1992,77,305,Central Michigan,2,96
@@ -6237,7 +6258,6 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0033128,,Nolan Frese,7/29/1992,74,233,Houston,0,48
 00-0033129,,Carl Nassib,4/12/1993,79,275,Penn State,0,94
 00-0023136,A.Harris,Antoine Harris,4/8/1982,70,205,Louisville,5,
-00-0030688,,Asa Watson,8/2/1990,75,237,North Carolina State,0,45
 00-0027336,B.Sewall,Bobby Sewall,2/29/1988,73,197,Brown,1,
 00-0027337,P.Trahan,Patrick Trahan,11/7/1986,74,236,Mississippi,2,
 00-0027332,J.Malecki,John Malecki,5/26/1988,74,298,Pittsburgh,2,
@@ -6320,7 +6340,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0032891,,Daryl Worley,2/22/1995,73,205,West Virginia,0,26
 00-0032890,,James Bradberry,8/4/1993,73,210,Samford,0,24
 00-0032464,,Kalif Raymond,8/8/1994,69,160,Holy Cross,0,19
-00-0028018,C.Culliver,Chris Culliver,8/17/1988,72,199,South Carolina,5,29
+00-0028018,C.Culliver,Chris Culliver,8/17/1988,72,199,South Carolina,6,29
 00-0028019,D.Van Dyke,DeMarcus Van Dyke,1/17/1989,73,185,Miami (Fla.),4,43
 00-0028548,T.Toliver,Terrence Toliver,5/7/1988,77,204,LSU,1,81
 00-0028549,R.Taylor,Ryan Taylor,8/29/1988,75,300,UCLA,1,
@@ -6329,7 +6349,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028012,R.Mallett,Ryan Mallett,6/5/1988,78,250,Arkansas,6,13
 00-0028013,J.Moffitt,John Moffitt,10/28/1986,76,319,Wisconsin,4,79
 00-0028542,L.Jean,Lestar Jean,2/5/1988,75,202,Florida Atlantic,4,0
-00-0028015,J.Casey,Jurrell Casey,12/5/1989,73,305,USC,6,99
+00-0028543,J.Maehl,Jeff Maehl,3/16/1989,72,184,Oregon,3,88
 00-0028016,A.Pettis,Austin Pettis,2/8/1988,75,203,Boise State,5,82
 00-0028017,L.Hankerson,Leonard Hankerson,1/30/1989,74,211,Miami (Fla.),6,80
 00-0029768,E.Stevens,Eric Stevens,10/1/1989,71,240,California,,
@@ -6341,7 +6361,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0029946,A.Jones,Abry Jones,9/8/1991,76,320,Georgia,3,95
 00-0029765,G.Goebel,Garrett Goebel,3/11/1989,76,292,Ohio State,,
 00-0029764,C.Davis,Cody Davis,6/6/1989,73,206,Texas Tech,3,38
-00-0029767,R.Steeples,Robert Steeples,11/27/1989,73,198,Memphis,1,28
+00-0029943,R.Dill,R.J. Dill,7/26/1990,78,320,Rutgers,1,74
 00-0029942,,Marcus Burley,7/16/1990,71,185,Delaware,4,28
 00-0020578,M.Bryant,Matt Bryant,5/29/1975,69,203,Baylor,15,3
 00-0032462,,Trevone Boykin,8/22/1993,72,213,Texas Christian,0,2
@@ -6473,11 +6493,11 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0030531,,Dallas Thomas,10/30/1989,77,315,Tennessee,4,63
 00-0030536,Z.Stacy,Zac Stacy,4/9/1991,69,224,Vanderbilt,3,30
 00-0030825,S.Morris,Stephen Morris,8/27/1992,74,218,Miami (Fla.),1,7
-00-0030534,B.Jones,Barrett Jones,5/25/1990,76,308,Alabama,3,77
+00-0030826,R.Reynolds,Rashaad Reynolds,2/2/1991,71,187,Oregon State,2,40
 00-0030535,B.McGee,Brandon McGee,12/11/1990,71,193,Miami (Fla.),3,33
 00-0030828,D.Tialavea,D.J. Tialavea,7/27/1991,76,260,Utah State,3,86
 00-0030829,,Josh Wells,2/14/1991,78,310,James Madison,2,72
-00-0030538,J.Cyprien,Johnathan Cyprien,7/29/1990,72,223,Florida International,3,37
+00-0029684,B.Thompson,Brandon Thompson,10/19/1989,74,305,Clemson,5,98
 00-0029685,G.Van Roten,Greg Van Roten,2/26/1990,75,303,Pennsylvania,3,62
 00-0029682,B.Osweiler,Brock Osweiler,11/22/1990,80,240,Arizona State,5,17
 00-0029683,R.Hillman,Ronnie Hillman,9/14/1991,70,195,San Diego State,5,23
@@ -6494,6 +6514,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0027353,M.Green,Marshay Green,1/14/1986,70,183,Mississippi,2,
 00-0027350,A.Jefferson,A.J. Jefferson,4/4/1988,73,190,Fresno State,5,32
 00-0027351,D.Tyler,Devin Tyler,7/2/1986,79,305,Temple,1,
+00-0031629,,Ryan Murphy,10/14/1992,72,214,Oregon State,1,36
 00-0031628,,Darryl Roberts,11/26/1990,72,190,Marshall,2,27
 00-0031484,,Chris Manhertz,4/10/1992,78,255,Canisius,1,86
 00-0025841,L.Rankin,Louis Rankin,5/4/1985,73,205,Washington,4,
@@ -6550,7 +6571,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0028564,I.Abdul-Quddus,Isa Abdul-Quddus,8/3/1989,73,196,Fordham,6,24
 00-0028565,A.Allen,Armando Allen,4/30/1989,68,190,Notre Dame,2,
 00-0028569,B.Heath,Brandon Heath,7/17/1988,73,215,Louisville,1,
-00-0029967,S.Brenner,Sam Brenner,4/27/1990,74,310,Utah,2,67
+00-0029967,S.Brenner,Sam Brenner,4/27/1990,74,310,Utah,4,67
 00-0029742,B.Banks,Brian Banks,7/24/1985,74,250,No College,,
 00-0029741,B.Bogotay,Brandon Bogotay,5/8/1989,75,207,Georgia,1,1
 00-0029964,,Luke Marquardt,3/23/1990,80,315,Azusa Pacific,1,64
@@ -6569,7 +6590,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031837,,Matt Rotheram,7/5/1992,77,325,Pittsburgh,1,74
 00-0007091,M.Hasselbeck,Matt Hasselbeck,9/25/1975,76,235,Boston College,17,8
 00-0026742,M.Benard,Marcus Benard,7/26/1985,74,260,Jackson State,5,59
-00-0029953,L.Pryor,Lonnie Pryor,2/22/1990,72,224,Florida State,2,45
+00-0026744,D.Beckwith,Darry Beckwith,5/15/1987,72,242,LSU,1,
 00-0026745,C.Brinkley,Curtis Brinkley,9/20/1985,69,208,Syracuse,4,
 00-0026749,A.Felder,Anthony Felder,3/16/1987,74,231,California,1,
 00-0030287,A.Ellington,Andre Ellington,2/3/1989,69,199,Clemson,4,38
@@ -6649,7 +6670,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0031848,,Caushaud Lyons,1/3/1993,77,284,Tusculum,1,99
 00-0024102,T.McDaniel,Tony McDaniel,1/20/1985,79,305,Tennessee,10,77
 00-0024103,M.Owens,Montell Owens,5/4/1984,70,225,Maine,10,24
-00-0024100,B.Iwuh,Brian Iwuh,3/8/1984,72,239,Colorado,6,
+00-0030754,,Adrian Hubbard,2/27/1992,78,257,Alabama,1,49
 00-0031647,,Malcolm Bunche,10/16/1991,78,320,UCLA,1,74
 00-0031646,,Brett Boyko,8/4/1992,78,301,Nevada-Las Vegas,1,67
 00-0031643,,Cam Thomas,5/5/1991,73,200,Western Kentucky,0,41
@@ -6751,7 +6772,7 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0024448,W.Montgomery,Will Montgomery,2/13/1983,75,304,Virginia Tech,10,64
 00-0030352,T.Walker,Ty Walker,8/25/1990,70,191,Illinois State,1,11
 00-0030353,J.Reed,Jarvis Reed,7/12/1990,73,245,Prairie View A&M;,,
-00-0030350,J.Amosa,Jonathan Amosa,10/16/1990,71,247,Washington,,
+00-0030350,J.Amosa,Jonathan Amosa,10/16/1990,71,247,Washington,0,48
 00-0030351,D.Savage,Donte Savage,5/5/1989,73,252,New Mexico State,,
 00-0030357,M.Williams,Meshak Williams,6/3/1991,75,254,Kansas State,,
 00-0030354,R.Carter,Rashaad Carter,10/18/1989,75,205,Tusculum,,
@@ -6759,7 +6780,6 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0030358,T.Stephens,Terrence Stephens,1/7/1991,73,315,Stanford,,
 00-0030359,A.Auguste,Akeem Auguste,10/10/1989,70,185,South Carolina,2,36
 00-0024058,J.Chick,John Chick,11/20/1982,76,255,Utah State,3,
-00-0022167,C.Crocker,Chris Crocker,3/9/1980,71,197,Marshall,12,25
 00-0009530,J.Kyle,Jason Kyle,5/12/1972,75,242,Arizona State,16,
 00-0004811,J.Elam,Jason Elam,3/8/1970,71,195,Hawaii,17,
 00-0023499,A.Terry,Adam Terry,9/1/1982,80,335,Syracuse,6,
@@ -7093,7 +7113,6 @@ NFLID,Short_Name,Full_Name,Date_of_Birth,Height,Weight,College,Years_Pro,Jersey_
 00-0033045,,Ezekiel Elliott,7/22/1995,72,225,Ohio State,0,21
 00-0033044,,Jimmy Pruitt,11/28/1992,72,203,San Jose State,0,43
 00-0021286,D.Faggins,Demarcus Faggins,6/13/1979,70,182,Kansas State,8,
-00-0023368,C.Wake,Cameron Wake,1/30/1982,75,263,Penn State,8,91
 00-0029879,,Kevin McDermott,1/12/1990,77,240,UCLA,4,47
 00-0029878,M.Gray,MarQueis Gray,11/7/1989,76,255,Minnesota,4,48
 00-0029871,J.Kimbrough,Jeremy Kimbrough,5/22/1991,70,231,Appalachian State,2,47
