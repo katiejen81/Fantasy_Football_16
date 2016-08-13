@@ -5,6 +5,18 @@ Created on Thu Aug 11 20:35:59 2016
 
 @author: Katie
 """
+#Change working directories and location of packages
+
+import sys
+sys.path.insert(0, '/home/katie/anaconda2/lib/python2.7/site-packages/')
+print '\n'.join(sys.path)
+
+#find the working directory and change if needed
+import os
+os.getcwd()
+
+#I want to change the working directory - this is for Windows Machine
+os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
 
 #Importing needed packages
 
@@ -42,16 +54,84 @@ game_list = game_info.keys()
 
 f = ['season', 'week']
 g = ['esbid', 'gsisPlayerID', 'id', 'name', 'position', 'team_abbr']
+header_row = f + g + stats_list
 
-#bring together the header row
+#write the header row - this is only done once
+with open('full_data.csv', 'wb') as csvwriter:
+    datawriter = csv.writer(csvwriter, delimiter=',')
+    datawriter.writerow(header_row)
 
 #Now let's get the game stat data
-d2013 = dict()
-#et 2013 data
-for j in range (1, 18):
-    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2013&week=" + str(j) + "&format=json"
+
+#Get 2013 data
+for l in range (1, 18):
+    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2013&week=" + str(l) + "&format=json"
     r = requests.get(url)
-    d[j] = json.loads(r.text)
-    d4 = {"week": j }
-    d2013 = dict(d2013, **d2); d2013.update(d4)
-        
+    d = json.loads(r.text)
+    for key in d:
+        f1 = ([d['season'], d['week']])
+        players = d['players']
+        for i in players:
+            f2 = [i['esbid'], i['gsisPlayerId'], i['id'], i['name'], i['position'], i['teamAbbr']]
+            game_stats = i['stats']
+            f3 = []
+            for j in range(1,94):
+                k = str(j)
+                z = game_stats.get(k, '')
+                f3.append(z)
+            f4 = f1 + f2 + f3
+            with open('full_data.csv', 'a') as csvwriter:
+                datawriter = csv.writer(csvwriter, delimiter=',')
+                datawriter.writerow(f4)
+
+#Get the 2014 Data
+for l in range (1, 18):
+    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2014&week=" + str(l) + "&format=json"
+    r = requests.get(url)
+    d = json.loads(r.text)
+    for key in d:
+        f1 = ([d['season'], d['week']])
+        players = d['players']
+        for i in players:
+            f2 = [i['esbid'], i['gsisPlayerId'], i['id'], i['name'], i['position'], i['teamAbbr']]
+            game_stats = i['stats']
+            f3 = []
+            for j in range(1,94):
+                k = str(j)
+                z = game_stats.get(k, '')
+                f3.append(z)
+            f4 = f1 + f2 + f3
+            with open('full_data.csv', 'a') as csvwriter:
+                datawriter = csv.writer(csvwriter, delimiter=',')
+                datawriter.writerow(f4)  
+                
+#Get the 2015 Data
+for l in range (1, 18):
+    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2015&week=" + str(l) + "&format=json"
+    r = requests.get(url)
+    d = json.loads(r.text)
+    for key in d:
+        f1 = ([d['season'], d['week']])
+        players = d['players']
+        for i in players:
+            f2 = [i['esbid'], i['gsisPlayerId'], i['id'], i['name'], i['position'], i['teamAbbr']]
+            game_stats = i['stats']
+            f3 = []
+            for j in range(1,94):
+                k = str(j)
+                z = game_stats.get(k, '')
+                f3.append(z)
+            f4 = f1 + f2 + f3
+            with open('full_data.csv', 'a') as csvwriter:
+                datawriter = csv.writer(csvwriter, delimiter=',')
+                datawriter.writerow(f4) 
+                
+#There are some weird blank spaces in the csv file. Let's get rid of them
+infile = open('full_data.csv', 'rb')
+outfile = open('full_stats.csv', 'wb')
+datawriter = csv.writer(outfile)
+for row in csv.reader(infile):
+    if row:
+        datawriter.writerow(row)
+infile.close()
+outfile.close()
