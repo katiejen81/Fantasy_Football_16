@@ -46,7 +46,7 @@ with open('Schedule since 2013.csv', 'wb') as csvfile:
 
 #runfile('C:/Users/Katie/Anaconda2/Lib/site-packages/nflgame/update_players.py', wdir='C:\Users\Katie\Documents\Fantasy_Football_16')
 runfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/update_players.py')
-
+runfile('C:\Users\Katie\Anaconda2\Lib\site-packages\nflgame\update_players.py')
 
 
 #This creates the players.json file, let's bring this into an object
