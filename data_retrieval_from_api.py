@@ -65,7 +65,7 @@ with open('full_data.csv', 'wb') as csvwriter:
 
 #Get 2013 data
 for l in range (1, 18):
-    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2013&week=" + str(l) + "&format=json"
+    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=weekStats&season=2013&week=" + str(l) + "&format=json"
     r = requests.get(url)
     d = json.loads(r.text)
     for key in d:
@@ -86,7 +86,7 @@ for l in range (1, 18):
 
 #Get the 2014 Data
 for l in range (1, 18):
-    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2014&week=" + str(l) + "&format=json"
+    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=weekStats&season=2014&week=" + str(l) + "&format=json"
     r = requests.get(url)
     d = json.loads(r.text)
     for key in d:
@@ -107,7 +107,7 @@ for l in range (1, 18):
                 
 #Get the 2015 Data
 for l in range (1, 18):
-    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=seasonStats&season=2015&week=" + str(l) + "&format=json"
+    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=weekStats&season=2015&week=" + str(l) + "&format=json"
     r = requests.get(url)
     d = json.loads(r.text)
     for key in d:
