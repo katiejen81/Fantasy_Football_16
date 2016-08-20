@@ -8,5 +8,5 @@
 </ul>
 <p>Information about the R Programs</p>
 <ul>
-    <li>Clean Up Data.r - This cleans up the all stats file (there are duplicates in the file) and calculates the game level fantasy points for each player for each week in the seasons between 2013 and 2015</li>
+    <li>Clean Up Data.r - This cleans up the full_stats file (there are duplicates in the file) and calculates the game level fantasy points for each player for each week in the seasons between 2013 and 2015</li>
 </ul>
