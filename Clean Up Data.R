@@ -80,3 +80,27 @@ nfldata2$Points_Fumble_Lost
 #Offensive Fumble Return TD
 nfldata2$Points_Fumble_Return_TD <- round(nfldata2$Fum_TD * 6)
 nfldata2$Points_Fumble_Return_TD
+
+#Kickers Field Goals 0-19 yds
+nfldata2$Points_FG_0_19 <- round(nfldata2$FG_0.19 * 3)
+nfldata2$Points_FG_0_19
+
+#Kickers Field Goals 20-29 yds
+nfldata2$Points_FG_20_29 <- round(nfldata2$FG_20.29 * 3)
+nfldata2$Points_FG_20_29
+
+#Kickers Field Goals 30-39 yds
+nfldata2$Points_FG_30_39 <- round(nfldata2$FG_30.39 * 3)
+nfldata2$Points_FG_30_39
+
+#Kickers Field Goals 40-49 yds
+nfldata2$Points_FG_40_49 <- round(nfldata2$FG_40.49 * 4)
+nfldata2$Points_FG_40_49
+
+#Kickers Field Goals 50+ yds
+nfldata2$Points_FG_50 <- round(nfldata2$FG_50. * 5)
+nfldata2$Points_FG_50 
+
+#Kickers Point After Attempt Made
+nfldata2$Points_Pts_After_Att_Mde <- round(nfldata2$PAT_Made * 1)
+nfldata2$Points_Pts_After_Att_Mde
