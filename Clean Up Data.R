@@ -108,11 +108,11 @@ nfldata2$Points_Pts_After_Att_Mde <- round(nfldata2$PAT_Made * 1)
 nfldata2$Points_Pts_After_Att_Mde
 
 #Defense Sacks
-nfldata2$Points_Sack <-round(nfldata2$Sack * 1)
+nfldata2$Points_Sack <-round(nfldata2$Sack.1 * 1)
 nfldata2$Points_Sack
 
 #Defense Interception
-nfldata2$Points_Def_Int <- round(nfldata2$Int.1)
+nfldata2$Points_Def_Int <- round(nfldata2$Int.1) * 2
 nfldata2$Points_Def_Int
 
 #Defense Fumble Recovery
@@ -120,8 +120,11 @@ nfldata2$Points_Fum_Rec <- nfldata2$Fum_Rec.1 * 2
 nfldata2$Points_Fum_Rec
 
 #Defense Touchdown
-nfldata2$Points_Def_TD <- (nfldata2$Fum_TD.1 + nfldata2$Int_TD) * 6
-nfldata2$Points_Def_TD
+nfldata2$Points_Def_TD1 <- nfldata2$Fum_TD.1  * 6
+nfldata2$Points_Def_TD1
+
+nfldata2$Points_Def_TD2 <- nfldata2$Int_TD  * 6
+nfldata2$Points_Def_TD2
 
 #Defense Safety
 nfldata2$Points_Safety <- nfldata2$Saf.1 * 2
@@ -173,8 +176,10 @@ FF_Points <- names(nfldata2)
 FF_Points <- subset(FF_Points, grepl("Points", FF_Points))
 FF_Points
 
-for (i in FF_Points) {
-  val <- noquote(i)
-  stat_frame <- subset(nfldata2, !is.na(val))
-  count(stat_frame, 'position')
+for (i in 1:length(FF_Points)) {
+  val <- FF_Points[i]
+  command <- paste("SELECT DISTINCT position, count(", val, ") as Count FROM nfldata2 GROUP BY position", sep="")
+  stat_frame <- sqldf(command)
+  print(noquote(val))
+  print(stat_frame)
 }
