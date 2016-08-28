@@ -9,8 +9,10 @@
 
 #install.packages("sqldf")
 #install.packages("RSQLite")
+#install.packages('plyr')
 library("sqldf")
 library("RSQLite")
+library('plyr')
 
 
 # Bring in csv file -------------------------------------------------------
@@ -164,3 +166,15 @@ nfldata2$Points_pts_alwd_35
 #Defense Extra Point Returned
 nfldata2$Points_Xtra_Pt_Rtrn <- nfldata2$Def_Player_2pt_Ret * 2
 nfldata2$Points_Xtra_Pt_Rtrn
+
+# Data Cleaning and Checking ----------------------------------------------
+
+FF_Points <- names(nfldata2)
+FF_Points <- subset(FF_Points, grepl("Points", FF_Points))
+FF_Points
+
+for (i in FF_Points) {
+  val <- noquote(i)
+  stat_frame <- subset(nfldata2, !is.na(val))
+  count(stat_frame, 'position')
+}
