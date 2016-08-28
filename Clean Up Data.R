@@ -104,3 +104,63 @@ nfldata2$Points_FG_50
 #Kickers Point After Attempt Made
 nfldata2$Points_Pts_After_Att_Mde <- round(nfldata2$PAT_Made * 1)
 nfldata2$Points_Pts_After_Att_Mde
+
+#Defense Sacks
+nfldata2$Points_Sack <-round(nfldata2$Sack * 1)
+nfldata2$Points_Sack
+
+#Defense Interception
+nfldata2$Points_Def_Int <- round(nfldata2$Int.1)
+nfldata2$Points_Def_Int
+
+#Defense Fumble Recovery
+nfldata2$Points_Fum_Rec <- nfldata2$Fum_Rec.1 * 2
+nfldata2$Points_Fum_Rec
+
+#Defense Touchdown
+nfldata2$Points_Def_TD <- (nfldata2$Fum_TD.1 + nfldata2$Int_TD) * 6
+nfldata2$Points_Def_TD
+
+#Defense Safety
+nfldata2$Points_Safety <- nfldata2$Saf.1 * 2
+nfldata2$Points_Safety
+
+#Blocked Kicks
+nfldata2$Points_Blk_Kick <-nfldata2$Block * 2
+nfldata2$Points_Blk_Kick
+
+#Kickoff and Punt Return Touchdowns
+nfldata2$Points_kck_rtrn_TD <- nfldata2$Return_TD.1 * 6
+nfldata2$Points_kck_rtrn_TD
+
+#Defense Points Allowed = 0
+nfldata2$Points_pts_alwd_0 <- nfldata2$Pts_Allow_0 * 10
+nfldata2$Points_pts_alwd_0
+
+#Defense Points Allowed = 1-6
+nfldata2$Points_pts_alwd_1_6 <- nfldata2$Pts_Allow_1.6 * 7
+nfldata2$Points_pts_alwd_1_6
+
+#Defense Points Allowed = 7-13
+nfldata2$Points_pts_alwd_7_13 <- nfldata2$Pts_Allow_7.13 * 4
+nfldata2$Points_pts_alwd_7_13
+
+#Defense Points Allowed = 14-20
+nfldata2$Points_pts_alwd_14_20 <- nfldata2$Pts_Allow_14.20 * 1
+nfldata2$Points_pts_alwd_14_20
+
+#Defense Points Allowed = 21-27
+nfldata2$Points_pts_alwd_21_27 <- nfldata2$Pts_Allow_21.27 * 0
+nfldata2$Points_pts_alwd_21_27
+
+#Defense Points Allowed = 28-34
+nfldata2$Points_pts_alwd_28_34 <- nfldata2$Pts_Allow_28.34 * -1
+nfldata2$Points_pts_alwd_28_34
+
+#Defense Points Allowed = 35+
+nfldata2$Points_pts_alwd_35 <- nfldata2$Pts_Allowed_35. * -4
+nfldata2$Points_pts_alwd_35 
+
+#Defense Extra Point Returned
+nfldata2$Points_Xtra_Pt_Rtrn <- nfldata2$Def_Player_2pt_Ret * 2
+nfldata2$Points_Xtra_Pt_Rtrn
