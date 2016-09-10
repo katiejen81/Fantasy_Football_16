@@ -1,0 +1,102 @@
+Category,Description,fields
+defense,Interception yards,['defense_int']
+defense,"Interception yards, TD","['defense_int', 'defense_tds', 'defense_int_tds']"
+defense,"Interception yards, No interception",[]
+defense,"Interception yards, TD, No interception","['defense_tds', 'defense_int_tds']"
+defense,Opponent recovery yards,['defense_frec']
+defense,"Opponent recovery yards, TD","['defense_frec', 'defense_tds', 'defense_frec_tds']"
+defense,"Opponent recovery yards, No recovery",[]
+defense,"Opponent recovery yards, TD, No recovery","['defense_tds', 'defense_frec_tds']"
+defense,Miscellaneous yards,[]
+defense,"Miscellaneous yards, TD","['defense_tds', 'defense_misc_tds']"
+defense,Solo tackle,['defense_tkl']
+defense,Assisted tackle,"['defense_tkl', 'defense_tkl_primary']"
+defense,Tackle assist,['defense_ast']
+defense,Sack yards (defense),['defense_sk']
+defense,1/2 sack yards (defense),['defense_sk']
+defense,Pass defensed,['defense_pass_def']
+defense,Punt blocked (defense),['defense_puntblk']
+defense,Extra point blocked (defense),['defense_xpblk']
+defense,Field goal blocked (defense),['defense_fgblk']
+defense,Safety (defense),['defense_safe']
+defense,Forced fumble (defense),['defense_ffum']
+defense,Quarterback hit,['defense_qbhit']
+defense,Tackle for a loss,['defense_tkl_loss']
+defense,Tackle for a loss yards,[]
+fumbles,Fumble - forced,"['fumbles_tot', 'fumbles_forced']"
+fumbles,Fumble - not forced,"['fumbles_tot', 'fumbles_notforced']"
+fumbles,Fumble - out of bounds,['fumbles_oob']
+fumbles,Own recovery yards,['fumbles_rec']
+fumbles,"Own recovery yards, TD","['fumbles_rec', 'fumbles_rec_tds']"
+fumbles,"Own recovery yards, No recovery",[]
+fumbles,"Own recovery yards, TD, No recovery",['fumbles_rec_tds']
+fumbles,Fumble - lost,['fumbles_lost']
+kicking,Kickoff yards,['kicking_tot']
+kicking,Kickoff inside 20,['kicking_i20']
+kicking,Kickff into endzone,['kicking_tot']
+kicking,Kickoff with touchback,"['kicking_tot', 'kicking_touchback']"
+kicking,Field goal missed yards,"['kicking_fga', 'kicking_fgmissed']"
+kicking,Field goal yards,"['kicking_fga', 'kicking_fgm']"
+kicking,Field goal blocked (offense),"['kicking_fga', 'kicking_fgmissed', 'kicking_fgb']"
+kicking,Extra point - good,"['kicking_xpa', 'kicking_xpmade']"
+kicking,Extra point - failed,"['kicking_xpa', 'kicking_xpmissed']"
+kicking,Extra point - blocked,"['kicking_xpa', 'kicking_xpmissed', 'kicking_xpb']"
+kicking,Own kickoff recovery,['kicking_rec']
+kicking,"Own kickoff recovery, TD","['kicking_rec', 'kicking_rec_tds']"
+kicking,Kickoff and length of kick,[]
+kickret,Kickoff return yards,['kickret_ret']
+kickret,"Kickoff return yards, TD","['kickret_ret', 'kickret_tds']"
+kickret,"Kickoff return yards, No return",[]
+kickret,"Kickoff return yards, TD, No return",['kickret_tds']
+kickret,Kickoff - fair catch,['kickret_fair']
+passing,Pass incomplete,"['passing_att', 'passing_incmp']"
+passing,Passing yards,"['passing_att', 'passing_cmp']"
+passing,"Passing yards, TD","['passing_att', 'passing_cmp', 'passing_tds']"
+passing,Interception (by passer),"['passing_att', 'passing_incmp', 'passing_int']"
+passing,Sack yards (offense),['passing_sk']
+passing,2 point pass - good,"['passing_twopta', 'passing_twoptm']"
+passing,2 point pass - failed,"['passing_twopta', 'passing_twoptmissed']"
+passing,"Sack yards (offense), No sack",[]
+passing,"Pass length, completion",[]
+passing,"Pass length, No completion",[]
+penalty,Penalty,['penalty']
+punting,Punt blocked (offense),['punting_blk']
+punting,Punting yards,['punting_tot']
+punting,Punt inside 20,['punting_i20']
+punting,Punt into endzone,['punting_tot']
+punting,Punt with touchback,"['punting_tot', 'punting_touchback']"
+puntret,Punt return yards,['puntret_tot']
+puntret,"Punt return yards, TD","['puntret_tot', 'puntret_tds']"
+puntret,"Punt return yards, No return",[]
+puntret,"Punt return yards, TD, No return",['puntret_tds']
+puntret,Punt - fair catch,['puntret_fair']
+receiving,Pass reception yards,['receiving_rec']
+receiving,"Pass reception yards, TD","['receiving_rec', 'receiving_tds']"
+receiving,"Pass reception yards, No reception",[]
+receiving,"Pass reception yards, TD, No reception",['receiving_tds']
+receiving,2 point pass reception - good,"['receiving_twopta', 'receiving_twoptm']"
+receiving,2 point pass reception - failed,"['receiving_twopta', 'receiving_twoptmissed']"
+receiving,Yardage gained after the catch,[]
+receiving,Pass target,['receiving_tar']
+rushing,Rushing yards,['rushing_att']
+rushing,"Rushing yards, TD","['rushing_att', 'rushing_tds']"
+rushing,"Rushing yards, No rush",[]
+rushing,"Rushing yards, TD, No rush",['rushing_tds']
+rushing,2 point rush - good,"['rushing_twopta', 'rushing_twoptm']"
+rushing,2 point rush - failed,"['rushing_twopta', 'rushing_twoptmissed']"
+team,1st down (rushing),"['first_down', 'rushing_first_down']"
+team,1st down (passing),"['first_down', 'passing_first_down']"
+team,1st down (penalty),"['first_down', 'penalty_first_down']"
+team,3rd down attempt converted,"['third_down_att', 'third_down_conv']"
+team,3rd down attempt failed,"['third_down_att', 'third_down_failed']"
+team,4th down attempt converted,"['fourth_down_att', 'fourth_down_conv']"
+team,4th down attempt failed,"['fourth_down_att', 'fourth_down_failed']"
+team,Punt out of bounds,['puntret_oob']
+team,Punt downed (no return),['puntret_downed']
+team,Punt - touchback (no return),['puntret_touchback']
+team,Kickoff out of bounds,['kickret_oob']
+team,Kickoff - touchback,['kickret_touchback']
+team,Timeout,['timeout']
+team,Tackled for a loss,['rushing_loss']
+team,Kickoff - kick downed,['kicking_downed']
+team,Extra point - aborted,['xp_aborted']
