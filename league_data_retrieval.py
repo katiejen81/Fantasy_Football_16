@@ -10,8 +10,8 @@ import webbrowser
 
 #Get a request token
 
-oauth_consumer_key = "dj0yJmk9YndwUlpoMnN2Unh6JmQ9WVdrOU1FZEZXWGQzTkdNbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD0yMw--"
-oauth_signature = "e30bb3c974eb4763941af13013481bde0795b374&"
+oauth_consumer_key = "CUSTOMER KEY"
+oauth_signature = "SECRET with &"
 
 url = "https://api.login.yahoo.com/oauth/v2/get_request_token?"
 
