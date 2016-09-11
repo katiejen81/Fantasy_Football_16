@@ -33,8 +33,7 @@ import requests
 import webbrowser
 
 import json
-f = open('API Keys.json').read()
-keys = json.loads(f)
+keys = json.loads(open('API Keys.json').read())
 
 #Get a request token
 
