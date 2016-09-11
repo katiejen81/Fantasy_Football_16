@@ -7,7 +7,7 @@ Written in Python 2
 """
 
 #Change working directories and location of packages
-
+#Laptop Linux Computer
 import sys
 sys.path.insert(0, '/home/katie/.local/lib/python2.7/site-packages')
 print '\n'.join(sys.path)
@@ -15,6 +15,16 @@ print '\n'.join(sys.path)
 import os
 os.getcwd()
 os.chdir("/home/katie/Documents/Fantasy_Football_16")
+
+#Desktop Linux Computer
+import sys
+sys.path.insert(0, '/home/katie/anaconda2/lib/python2.7/site-packages')
+print '\n'.join(sys.path)
+
+import os
+os.getcwd()
+os.chdir("/home/katie/Fantasy Football Programs and Files/")
+
 
 #Import the packages needed for the OAuth Authorization flow
 
