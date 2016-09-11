@@ -33,8 +33,10 @@ oauth_signature = keys['Secret'] + '&'
 
 url = "https://api.login.yahoo.com/oauth/v2/get_request_token?"
 
-params = {"oauth_nonce": oauth.generate_nonce(30), "oauth_timestamp": oauth.generate_timestamp(), "oauth_consumer_key": oauth_consumer_key, "oauth_signature_method": "plaintext",
-    "oauth_signature": oauth_signature, "oauth_version": "1.0", "xoauth_lang_pref":'"en-us"', "oauth_callback": "oob"}
+params = {"oauth_nonce": oauth.generate_nonce(30), "oauth_timestamp": oauth.generate_timestamp(), 
+          "oauth_consumer_key": oauth_consumer_key, "oauth_signature_method": "plaintext",
+          "oauth_signature": oauth_signature, "oauth_version": "1.0", "xoauth_lang_pref":'"en-us"', 
+          "oauth_callback": "oob"}
 
 r = requests.get(url, params)
 s = r.text
@@ -57,7 +59,7 @@ url = "https://api.login.yahoo.com/oauth/v2/request_auth?" + p1
 
 webbrowser.open(url)
 
- #Let's assign the code to a variable
+#Let's assign the code to a variable
 
 code = "r9veyv"
 
@@ -74,3 +76,33 @@ params = {"oauth_consumer_key":oauth_consumer_key, "oauth_signature_method":"pla
 #Call the API to get the token
 r1 = requests.get(url, params)
 s1 = r1.text
+
+#Parse the response to get the access token that can be used
+#To make the requests
+
+t = s1.split("&")
+token = t[0].split("=")[1]
+token_secret = t[1].split("=")[1]
+
+#The access token is only good for an hour. Run the below code
+#To refresh the token, run the below code
+
+#Get the access handle. This is a more persistent access credential
+
+handle = t[3].split("=")[1]
+
+params = {"oauth_nonce": oauth.generate_nonce(30), "oauth_consumer_key":oauth_consumer_key, 
+          "oauth_timestamp": oauth.generate_timestamp(), "oauth_signature_method":"plaintext", 
+          "oauth_signature": oauth_signature + token_secret, "oauth_version": "1.0", 
+          "oauth_token":token, "oauth_session_handle":handle}
+
+#Call the API to get the new Access token
+
+r1 = requests.get(url, params)
+s1 = r1.text
+
+#Finally parse the new token into the variable
+
+t = s1.split("&")
+token = t[0].split("=")[1]
+token_secret = t[1].split("=")[1]
