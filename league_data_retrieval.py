@@ -4,14 +4,31 @@ Created on Fri Sep 09 20:10:54 2016
 
 @author: Katie
 """
+
+#Change working directories and location of packages
+
+import sys
+sys.path.insert(0, '/home/katie/.local/lib/python2.7/site-packages')
+print '\n'.join(sys.path)
+
+import os
+os.getcwd()
+os.chdir("/home/katie/Documents/Fantasy_Football_16")
+
+#Import the packages needed for the OAuth Authorization flow
+
 import oauth2 as oauth
 import requests
 import webbrowser
 
+import json
+f = open('API Keys.json').read()
+keys = json.loads(f)
+
 #Get a request token
 
-oauth_consumer_key = "CUSTOMER KEY"
-oauth_signature = "SECRET with &"
+oauth_consumer_key = keys['Key']
+oauth_signature = keys['Secret'] + '&'
 
 url = "https://api.login.yahoo.com/oauth/v2/get_request_token?"
 
