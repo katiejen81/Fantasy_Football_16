@@ -54,15 +54,13 @@ s = r.text
 
 p = s.split("&")
 #request token
-p1 = p[0]
-p2 = p1.split("=")[1]
+p2 = p[0].split("=")[1]
 #Token secret
-p3 = p[1]
-p4 = p3.split("=")[1]
+p4 = p[1].split("=")[1]
 
 #Now ask for authorization
 
-url = "https://api.login.yahoo.com/oauth/v2/request_auth?" + p1
+url = "https://api.login.yahoo.com/oauth/v2/request_auth?" + p2
 
 #And now we have to pop open a web browser to grant permission for the API to work
 
@@ -70,7 +68,7 @@ webbrowser.open(url)
 
 #Let's assign the code to a variable
 
-code = "r9veyv"
+code = "s9axza"
 
 #Now we have to exchange all of this information for an Access Token
 #Define the request URL
