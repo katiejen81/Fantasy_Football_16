@@ -6,6 +6,7 @@
 	<li><u>nfldataretieval</u> Sorry for the misspelling - This uses the python package NFLGame to get schedules and statistics</li>
 	<li><u>data_retrieval_from_api</u> - Uses the nfl.com api directly to get all of the statistics available on the site</li>
 	<li>rank_retrieval_from_api - Uses the nfl.com api directly to get all of the editor draft ranks for the current season</li>
+	<li>yahoo_api_authentication.py - The multi stage process that is required to get a token to access the Yahoo fantasy site via an API</li>
 </ul>
 <p>Information about the R Programs</p>
 <ul>
