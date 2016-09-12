@@ -7,6 +7,8 @@ Written in Python 2
 """
 
 #First things first. Let's set up our authentication dictionary
+
+#we have to encode the oauth_signature and the token_secret to double encode RFC3986
           
 params = {"oauth_nonce": oauth.generate_nonce(30), "oauth_consumer_key":oauth_consumer_key, 
           "oauth_timestamp": oauth.generate_timestamp(), "oauth_signature_method":"HMAC-SHA1", 
