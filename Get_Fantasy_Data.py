@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Access Fantasy Site
+Access Fantasy Site - Abridged Version
 Created on Wed Sep 14 20:10:24 2016
 Written in Python 2
 @author: katie
+Must run this in pieces so that the information can be
+input
 """
 
 #Change working directories and location of packages
@@ -27,8 +29,15 @@ from myql import MYQL
 yql = MYQL(format='json', oauth=oauth)
 
 #First Query - this was less painful
+#Getting League information
+
 import json
 
 response = yql.select('fantasysports.leagues').where(['league_key', '=', 'nfl.l.425859'])
 s = response.text
 parse = json.loads(s)
+
+#From here we will need the league key
+
+x = parse['query']['results']['league']
+league_key = x['league_key']
