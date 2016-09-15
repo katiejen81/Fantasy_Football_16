@@ -1,32 +1,34 @@
 # -*- coding: utf-8 -*-
 """
-Fantasy League get information
-Created on Sun Sep 11 18:27:45 2016
+Access Fantasy Site
+Created on Wed Sep 14 20:10:24 2016
 Written in Python 2
 @author: katie
 """
 
-#First things first. Let's set up our authentication dictionary
+#Change working directories and location of packages
+#Laptop Linux Computer
+import sys
+sys.path.insert(0, '/home/katie/.local/lib/python2.7/site-packages')
+print '\n'.join(sys.path)
 
-#we have to encode the oauth_signature and the token_secret to double encode RFC3986
-          
-params = {"oauth_nonce": oauth.generate_nonce(30), "oauth_consumer_key":oauth_consumer_key, 
-          "oauth_timestamp": oauth.generate_timestamp(), "oauth_signature_method":"HMAC-SHA1", 
-          "oauth_signature": oauth_signature + token_secret, "oauth_version": "1.0", 
-          "oauth_token":token}
-          
-sorted(params)
+import os
+os.getcwd()
+os.chdir("/home/katie/Documents/Fantasy_Football_16")
 
-# team ID 5
-import requests
-import oauth2
+#Begin to access the OAUTH library
+from yahoo_oauth import OAuth1
 
-#Let's first test to see if this call will get us the league
-League = "nfl.l.425859"
+#read in the consumer secret and key
+oauth = OAuth1(None, None, from_file='credentials.json')
 
-url = "http://fantasysports.yahooapis.com/fantasy/v2/league/" + League
+#Code in case it is needed - srbtce
+from myql import MYQL
+yql = MYQL(format='json', oauth=oauth)
 
-r = requests.get(url, params)
-s = r.text
+#First Query - this was less painful
+import json
 
-requests.get()
+response = yql.select('fantasysports.leagues').where(['league_key', '=', 'nfl.l.425859'])
+s = response.text
+parse = json.loads(s)
