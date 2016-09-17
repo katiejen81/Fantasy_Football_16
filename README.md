@@ -6,7 +6,7 @@
 	<li><u>nfldataretieval</u> Sorry for the misspelling - This uses the python package NFLGame to get schedules and statistics</li>
 	<li><u>data_retrieval_from_api</u> - Uses the nfl.com api directly to get all of the statistics available on the site</li>
 	<li>rank_retrieval_from_api - Uses the nfl.com api directly to get all of the editor draft ranks for the current season</li>
-	<li>Get_Fantasy_Data - This will probably be named the undrafted players report</li>
+	<li>Undrafted_Player_Report - This will probably be named the undrafted players report</li>
 </ul>
 <p>Information about the R Programs</p>
 <ul>
