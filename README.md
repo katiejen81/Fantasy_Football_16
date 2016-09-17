@@ -6,7 +6,7 @@
 	<li><u>nfldataretieval</u> Sorry for the misspelling - This uses the python package NFLGame to get schedules and statistics</li>
 	<li><u>data_retrieval_from_api</u> - Uses the nfl.com api directly to get all of the statistics available on the site</li>
 	<li>rank_retrieval_from_api - Uses the nfl.com api directly to get all of the editor draft ranks for the current season</li>
-	<li>Get_Fantasy_Data - Getting league specific data out of the Yahoo api to prepare for analysis</li>
+	<li>Get_Fantasy_Data - This will probably be named the undrafted players report</li>
 </ul>
 <p>Information about the R Programs</p>
 <ul>
@@ -14,6 +14,7 @@
 </ul>
 <p>Information about the data files</p>
 <ul>
+	<li>undrafted_players.csv - A report of the top 100 undrafted players as of program runtime</li>
 	<li>full_stats.csv - Full week level game statistics for the 2013 - 2015 seasons</li>
 	<li>rank_retrieval_from_api.csv - nfl.com editor draft rankings for the 2016 season</li>
 	<li>Fantasy_Point_Values.csv - League point values for current season</li>
