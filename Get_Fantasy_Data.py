@@ -57,6 +57,7 @@ Available_Players = parse['fantasy_content']['league'][1]['players']
 
 #Get a list of the top 100 undrafted players by Fantasy Points
 
+
 for n in [1, 25, 50, 75]:
     url = 'http://fantasysports.yahooapis.com/fantasy/v2/league/' + league_key + '/players;status=A;sort=PTS;start=' + str(n) + '/stats'
     response = oauth.session.get(url, params={'format': 'json'})
@@ -67,6 +68,7 @@ for n in [1, 25, 50, 75]:
 
     key_list = Available_Players.keys()
     key_list.remove('count')
+    key_list.sort(key=int)
     for i in key_list:
         j = str(i)
         player_key = Available_Players[j]['player'][0][0]['player_key']
@@ -89,6 +91,6 @@ for n in [1, 25, 50, 75]:
         else:
             player_bye = None
         #Total points this season so far
-        
-        print player_key, player_name, player_position, player_status, player_team, player_bye
+        player_points = Available_Players[j]['player'][1]['player_points']['total']
+        print player_key, player_name, player_position, player_status, player_team, player_bye, player_points
     
