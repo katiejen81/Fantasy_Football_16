@@ -57,3 +57,64 @@ while team_key == None:
         name = teams[key]['team'][0][2]['name']
         if name == "Go Bulls!":
             team_key = teams[key]['team'][0][0]['team_key']
+            
+#Now that we have a team key, let's get our players
+#We can also get weekly stats
+#Let's Start by getting our week information so that we can
+#loop that way
+current_week = parse['fantasy_content']['league'][0]['current_week']
+
+url = 'http://fantasysports.yahooapis.com/fantasy/v2/team/' + team_key + '/roster'
+response = oauth.session.get(url, params={'format': 'json'})
+s = response.text
+parse = json.loads(s)
+players = parse['fantasy_content']['team'][1]['roster']['0']['players']
+key_list = players.keys()
+key_list.remove('count')
+key_list.sort(key=int)
+player_list = []
+for i in key_list:
+    key = i
+    player_key = players[key]['player'][0][0]['player_key']
+    #Make a list of player ids so that we can line these up
+    #Week after week. Despite changes
+    player_list.append(player_key)
+
+#Now that we have a list of players from our most recent roster,
+#let's loop through them and get all of their weekly fantasy stats
+#The below code creates a player centric dictionary for each player, by week
+player_stats = {}  
+iteration = 0  
+for player in player_list:
+    key = 'player_' + player
+    player_stats[key] = {}
+    for i in range (1, current_week+1):  
+        week = str(i)
+        url = 'http://fantasysports.yahooapis.com/fantasy/v2/league/' + league_key + '/players;player_keys=' + player + ';week=' + week + '/stats'
+        response = oauth.session.get(url, params={'format': 'json'})
+        s = response.text
+        parse = json.loads(s)
+        value = parse['fantasy_content']['league'][1]['players']['0']['player']
+        player_stats[key][week] = value
+
+#---Below this line, we need to add code to get in to the player/week dictionaries
+#and create a csv file that has a weekly trend for each of these---
+
+    player_name = players[key]['player'][0][2]['name']['full']
+    #player team
+    player_team_a = players[key]['player'][0][6].get('editorial_team_abbr', None)
+    player_team_b = players[key]['player'][0][7].get('editorial_team_abbr', None)
+    player_team = player_team_a or player_team_b
+    #player bye
+    if 'bye_weeks' in players[key]['player'][0][7]:
+        player_bye = players[key]['player'][0][7]['bye_weeks']['week']
+    elif 'bye_weeks' in players[key]['player'][0][8]:
+        player_bye = 'bye_weeks' in players[key]['player'][0][8]['bye_weeks']['week']
+    else:
+        player_bye = None
+    #Make a list of player ids so that we can line these up
+    #Week after week. Despite changes
+    player_list.append(player_key)
+    player_week_team_pos = players[key]['player'][1]['selected_position'][1]['position']
+    player_week_points = players[key]['player'][3]['player_points']['total']
+    print player_key, player_name, player_team, player_bye, player_week_team_pos, player_week_points
