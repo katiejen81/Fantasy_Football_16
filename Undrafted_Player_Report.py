@@ -18,13 +18,22 @@ import os
 os.getcwd()
 os.chdir("/home/katie/Documents/Fantasy_Football_16")
 
+#Desktop Linux Computer
+import sys
+sys.path.insert(0, '/home/katie/anaconda2/lib/python2.7/site-packages/')
+print '\n'.join(sys.path)
+
+import os
+os.getcwd()
+os.chdir('/home/katie/Fantasy Football Programs and Files')
+
 #Begin to access the OAUTH library
 from yahoo_oauth import OAuth1
 
 #read in the consumer secret and key
 oauth = OAuth1(None, None, from_file='credentials.json')
 
-#Code in case it is needed
+#Code in case it is needed - d7nf6n
 from myql import MYQL
 yql = MYQL(format='json', oauth=oauth)
 
