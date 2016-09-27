@@ -84,7 +84,6 @@ for i in key_list:
 #let's loop through them and get all of their weekly fantasy stats
 #The below code creates a player centric dictionary for each player, by week
 player_stats = {}  
-iteration = 0  
 for player in player_list:
     key = 'player_' + player
     player_stats[key] = {}
