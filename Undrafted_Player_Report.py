@@ -65,6 +65,8 @@ with open('undrafted_players.csv', 'wb') as csvwriter:
                          'player_position', 'player_team', 'player_bye', 
                          'player_season_total_points'])
 
+    player_list = []
+
     for n in [1, 25, 50, 75]:
         url = 'http://fantasysports.yahooapis.com/fantasy/v2/league/' + league_key + '/players;status=A;sort=PTS;start=' + str(n) + '/stats'
         response = oauth.session.get(url, params={'format': 'json'})
@@ -99,6 +101,56 @@ with open('undrafted_players.csv', 'wb') as csvwriter:
                 player_bye = None
             #Total points this season so far
             player_points = Available_Players[j]['player'][1]['player_points']['total']
+            #add player to a list
+            player_list.append(player_key)
             datawriter.writerow([player_key, player_name, player_status, player_position, 
                                  player_team, player_bye, player_points])
     
+#Now let's get a week by week breakdown
+current_week = parse['fantasy_content']['league'][0]['current_week']
+
+player_stats = {}  
+for player in player_list:
+    key = 'player_' + player
+    player_stats[key] = {}
+    for i in range (1, current_week+1):  
+        week = 'week_' + str(i)
+        wk = str(i)
+        url = 'http://fantasysports.yahooapis.com/fantasy/v2/league/' + league_key + '/players;player_keys=' + player +  '/stats;type=week;week=' + wk 
+        response = oauth.session.get(url, params={'format': 'json'})
+        s = response.text
+        parse = json.loads(s)
+        value = parse['fantasy_content']['league'][1]['players']['0']['player']
+        player_stats[key][week] = value
+
+variables = ['week_' + str(w) for w in range(1, current_week+1)]
+
+import csv
+with open('undrafted_player_week.csv', 'wb') as csvwriter:
+    datawriter = csv.writer(csvwriter, delimiter = ',')
+    datawriter.writerow(['player_id', 'player_name', 
+                         'player_position', 'player_team', 
+                         'player_bye'] + variables)
+    for i in player_stats:
+        player_id = player_stats[i]['week_1'][0][0]['player_key']
+        player_name = player_stats[i]['week_1'][0][2]['name']['full']
+        player_position_a = player_stats[i]['week_' + str(current_week)][0][9].get('display_position', None)
+        player_position_b = player_stats[i]['week_' + str(current_week)][0][10].get('display_position', None)
+        player_position = player_position_a or player_position_b
+         #player team
+        player_team_a = player_stats[i]['week_1'][0][6].get('editorial_team_abbr', None)
+        player_team_b = player_stats[i]['week_1'][0][7].get('editorial_team_abbr', None)
+        player_team = player_team_a or player_team_b
+        #player bye
+        if 'bye_weeks' in player_stats[i]['week_1'][0][7]:
+            player_bye = player_stats[i]['week_1'][0][7]['bye_weeks']['week']
+        elif 'bye_weeks' in player_stats[i]['week_1'][0][8]:
+            player_bye = player_stats[i]['week_1'][0][8]['bye_weeks']['week']
+        else:
+            player_bye = None
+        list1 = [player_id, player_name, player_position, player_team, player_bye]
+        #Week Stats
+        for j in variables:
+            list1.append(player_stats[i][j][1]['player_points']['total'])
+        datawriter.writerow(list1)
+
