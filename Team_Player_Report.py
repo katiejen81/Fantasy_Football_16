@@ -84,13 +84,13 @@ for i in key_list:
 #let's loop through them and get all of their weekly fantasy stats
 #The below code creates a player centric dictionary for each player, by week
 player_stats = {}  
-iteration = 0  
 for player in player_list:
     key = 'player_' + player
     player_stats[key] = {}
     for i in range (1, current_week+1):  
-        week = str(i)
-        url = 'http://fantasysports.yahooapis.com/fantasy/v2/league/' + league_key + '/players;player_keys=' + player + ';week=' + week + '/stats'
+        week = 'week_' + str(i)
+        wk = str(i)
+        url = 'http://fantasysports.yahooapis.com/fantasy/v2/league/' + league_key + '/players;player_keys=' + player +  '/stats;type=week;week=' + wk 
         response = oauth.session.get(url, params={'format': 'json'})
         s = response.text
         parse = json.loads(s)
@@ -99,22 +99,34 @@ for player in player_list:
 
 #---Below this line, we need to add code to get in to the player/week dictionaries
 #and create a csv file that has a weekly trend for each of these---
+variables = ['week_' + str(w) for w in range(1, current_week+1)]
 
-    player_name = players[key]['player'][0][2]['name']['full']
-    #player team
-    player_team_a = players[key]['player'][0][6].get('editorial_team_abbr', None)
-    player_team_b = players[key]['player'][0][7].get('editorial_team_abbr', None)
-    player_team = player_team_a or player_team_b
-    #player bye
-    if 'bye_weeks' in players[key]['player'][0][7]:
-        player_bye = players[key]['player'][0][7]['bye_weeks']['week']
-    elif 'bye_weeks' in players[key]['player'][0][8]:
-        player_bye = 'bye_weeks' in players[key]['player'][0][8]['bye_weeks']['week']
-    else:
-        player_bye = None
-    #Make a list of player ids so that we can line these up
-    #Week after week. Despite changes
-    player_list.append(player_key)
-    player_week_team_pos = players[key]['player'][1]['selected_position'][1]['position']
-    player_week_points = players[key]['player'][3]['player_points']['total']
-    print player_key, player_name, player_team, player_bye, player_week_team_pos, player_week_points
+import csv
+with open('team_roster_week.csv', 'wb') as csvwriter:
+    datawriter = csv.writer(csvwriter, delimiter = ',')
+    datawriter.writerow(['player_id', 'player_name', 
+                         'player_position', 'player_team', 
+                         'player_bye'] + variables)
+    for i in player_stats:
+        player_id = player_stats[i]['week_1'][0][0]['player_key']
+        player_name = player_stats[i]['week_1'][0][2]['name']['full']
+        player_position_a = player_stats[i]['week_' + str(current_week)][0][9].get('display_position', None)
+        player_position_b = player_stats[i]['week_' + str(current_week)][0][10].get('display_position', None)
+        player_position = player_position_a or player_position_b
+         #player team
+        player_team_a = player_stats[i]['week_1'][0][6].get('editorial_team_abbr', None)
+        player_team_b = player_stats[i]['week_1'][0][7].get('editorial_team_abbr', None)
+        player_team = player_team_a or player_team_b
+        #player bye
+        if 'bye_weeks' in player_stats[i]['week_1'][0][7]:
+            player_bye = player_stats[i]['week_1'][0][7]['bye_weeks']['week']
+        elif 'bye_weeks' in player_stats[i]['week_1'][0][8]:
+            player_bye = player_stats[i]['week_1'][0][8]['bye_weeks']['week']
+        else:
+            player_bye = None
+        list1 = [player_id, player_name, player_position, player_team, player_bye]
+        #Week Stats
+        for j in variables:
+            list1.append(player_stats[i][j][1]['player_points']['total'])
+        datawriter.writerow(list1)
+
