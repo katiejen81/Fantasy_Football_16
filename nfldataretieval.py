@@ -15,10 +15,10 @@ import os
 os.getcwd()
 
 #I want to change the working directory - this is for Windows Machine
-os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
+#os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
 
 #This Path is for the Linux machine
-#os.chdir('/home/katie/Fantasy Football Programs and Files/')
+os.chdir('/home/katie/Documents/Fantasy_Football_16')
 
 #Start by importing the application
 import nflgame
@@ -46,14 +46,14 @@ with open('Schedule since 2013.csv', 'wb') as csvfile:
 
 #runfile('C:/Users/Katie/Anaconda2/Lib/site-packages/nflgame/update_players.py', wdir='C:\Users\Katie\Documents\Fantasy_Football_16')
 runfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/update_players.py')
-runfile('C:\Users\Katie\Anaconda2\Lib\site-packages\nflgame\update_players.py')
+#runfile('C:\Users\Katie\Anaconda2\Lib\site-packages\nflgame\update_players.py')
 
 
 #This creates the players.json file, let's bring this into an object
 #First we need to bring this into the working directory
 
 import shutil
-shutil.copyfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/players.json', '/home/katie/Fantasy Football Programs and Files/players.json')
+shutil.copyfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/players.json', '/home/katie/Documents/Fantasy_Football_16')
 
 import json
 with open('players.json') as json_data:
