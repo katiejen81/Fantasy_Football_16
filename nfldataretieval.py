@@ -24,6 +24,7 @@ os.chdir('/home/katie/Documents/Fantasy_Football_16')
 import nflgame
 import nflgame.sched
 import csv
+import nflgame.statmap
 
 
 #get the schedule for the last three seasons. We want to train on the last three seasons
@@ -53,7 +54,7 @@ runfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/update_player
 #First we need to bring this into the working directory
 
 import shutil
-shutil.copyfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/players.json', '/home/katie/Documents/Fantasy_Football_16')
+shutil.copyfile('/home/katie/anaconda2/lib/python2.7/site-packages/nflgame/players.json', '/home/katie/Documents/Fantasy_Football_16/players.json')
 
 import json
 with open('players.json') as json_data:
@@ -85,7 +86,7 @@ with open('All Players.csv', 'wb') as csvfile2:
             ])
             
 #Let's now see what kinds of game statistics are available to us
-dictionary2 = nflgame.statmap.idmap()
+dictionary2 = nflgame.statmap.idmap
 print dictionary2
 
 with open('data dictionary.csv', 'wb') as csvwrite:
@@ -114,7 +115,7 @@ with open('Player_List.csv', 'wb') as csvwrite:
             week1 = game['week']
             home1 = game['home']
             away1 = game['away']
-            games = nflgame.games(game1, week1, home1, away1)
+            games = nflgame.games(game1, week1, home=home1, away=away1)
             players = nflgame.combine(games)            
             for p in players:
                 gmewriter.writerow([
