@@ -25,7 +25,7 @@ print '\n'.join(sys.path)
 
 import os
 os.getcwd()
-os.chdir('/home/katie/Fantasy Football Programs and Files')
+os.chdir('/media/katie/d97cda70-8ba6-4a37-9d37-edeaed2ee339/Katie/Fantasy Football Programs and Files/')
 
 #Begin to access the OAUTH library
 from yahoo_oauth import OAuth1
