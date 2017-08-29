@@ -16,7 +16,10 @@ import os
 os.getcwd()
 
 #I want to change the working directory - this is for Windows Machine
-os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
+#os.chdir("C:\Users\Katie\Documents\Fantasy_Football_16")
+
+#Linux Laptop
+os.chdir("/home/katie/Documents/Fantasy_Football_16")
 
 #Importing needed packages
 
@@ -108,6 +111,27 @@ for l in range (1, 18):
 #Get the 2015 Data
 for l in range (1, 18):
     url = "http://api.fantasy.nfl.com/v1/players/stats?statType=weekStats&season=2015&week=" + str(l) + "&format=json"
+    r = requests.get(url)
+    d = json.loads(r.text)
+    for key in d:
+        f1 = ([d['season'], d['week']])
+        players = d['players']
+        for i in players:
+            f2 = [i['esbid'], i['gsisPlayerId'], i['id'], i['name'], i['position'], i['teamAbbr']]
+            game_stats = i['stats']
+            f3 = []
+            for j in range(1,94):
+                k = str(j)
+                z = game_stats.get(k, '')
+                f3.append(z)
+            f4 = f1 + f2 + f3
+            with open('full_data.csv', 'a') as csvwriter:
+                datawriter = csv.writer(csvwriter, delimiter=',')
+                datawriter.writerow(f4) 
+                
+#Get the 2016 Data
+for l in range (1, 18):
+    url = "http://api.fantasy.nfl.com/v1/players/stats?statType=weekStats&season=2016&week=" + str(l) + "&format=json"
     r = requests.get(url)
     d = json.loads(r.text)
     for key in d:
